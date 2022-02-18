@@ -1,0 +1,6531 @@
+{
+ "name": "Centro Culturale Leonense [Lumenaria]",
+ "type": "public_channel",
+ "id": 1444391747,
+ "messages": [
+  {
+   "id": 1,
+   "type": "service",
+   "date": "2021-05-05T22:19:48",
+   "actor": "Centro Culturale Leonense [Lumenaria]",
+   "actor_id": "channel1444391747",
+   "action": "create_channel",
+   "title": "Biblioteca Statale Leonense [Lumenaria]",
+   "text": ""
+  },
+  {
+   "id": 2,
+   "type": "message",
+   "date": "2021-05-05T22:24:16",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista ad Hearot ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-al-fondatore-dellOIDMA-Hearot-10-23"
+    },
+    " Stefano Martina, 23 Ottobre 2018 - OIDMA [Il Micronazionale]"
+   ]
+  },
+  {
+   "id": 3,
+   "type": "message",
+   "date": "2021-05-05T22:24:36",
+   "edited": "2021-05-05T22:25:18",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Cosa penso della RFL ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-al-fondatore-dellOIDMA-Hearot-10-23"
+    },
+    " Stefano Martina, 9 Novembre 2018 - Agepoli [Accademia]"
+   ]
+  },
+  {
+   "id": 5,
+   "type": "message",
+   "date": "2021-05-05T22:26:43",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Valutazione delle Micronazioni ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/VALUTAZIONE-DELLE-MICRONAZIONI-10-03"
+    },
+    " Stefano Martina, 3 Ottobre 2018 - Castaboro [Radiotelevisione Micronazionale]"
+   ]
+  },
+  {
+   "id": 6,
+   "type": "message",
+   "date": "2021-05-05T22:28:00",
+   "edited": "2021-05-13T16:44:55",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "De Re Publica Castaboro ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/9"
+    },
+    " Giovanni Zaccaria, 30 Settembre 2018 - Castaboro [ICC]"
+   ]
+  },
+  {
+   "id": 7,
+   "type": "message",
+   "date": "2021-05-05T22:28:36",
+   "edited": "2021-05-13T16:59:10",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Historia di Leonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/36"
+    },
+    " Davide Leone, 17 gennaio 2017 - Leonia [FL Editore]"
+   ]
+  },
+  {
+   "id": 8,
+   "type": "message",
+   "date": "2021-05-05T22:29:12",
+   "edited": "2021-05-13T16:58:41",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Leonia",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://t.me/ArchivioLum/35"
+    },
+    " Vincenzo Iemma, 1 Gennaio 2017 - Leonia [FL Editore]"
+   ]
+  },
+  {
+   "id": 9,
+   "type": "message",
+   "date": "2021-05-05T22:29:42",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'Impero Democratico",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://telegra.ph/LImpero-Democratico-11-08"
+    },
+    " Giovanni Zaccaria, 8 Novembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 10,
+   "type": "message",
+   "date": "2021-05-05T22:30:22",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Storia dell'India Vedica ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Storia-dellIndia-Vedica-10-26"
+    },
+    " Giovanni Zaccaria, 26 Ottobre 2018 - Agepoli [Polimata]"
+   ]
+  },
+  {
+   "id": 11,
+   "type": "message",
+   "date": "2021-05-05T22:31:08",
+   "edited": "2021-05-13T16:57:58",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il principato di Freeland ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/34"
+    },
+    " Gianmarco Rubino, <Inverno del 2017> - Freeland [Fondazione Rubino]"
+   ]
+  },
+  {
+   "id": 12,
+   "type": "message",
+   "date": "2021-05-05T22:32:07",
+   "edited": "2021-05-08T12:48:42",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Come noi Stato progredir Possiamo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/42"
+    },
+    " Giovanni Zaccaria, 29 Ottobre 2018 - Agepoli [Accademia]"
+   ]
+  },
+  {
+   "id": 13,
+   "type": "message",
+   "date": "2021-05-05T22:32:33",
+   "edited": "2021-05-13T16:57:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Saggio sulla Necessità ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/33"
+    },
+    " Giovanni Zaccaria, 3 Novembre 2018 - Agepoli [Accademia]"
+   ]
+  },
+  {
+   "id": 14,
+   "type": "message",
+   "date": "2021-05-05T22:33:06",
+   "edited": "2021-05-08T12:47:51",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Poesia di Maggio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/43"
+    },
+    " Davide Leone, 16 Marzo 2017 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 15,
+   "type": "message",
+   "date": "2021-05-05T22:33:49",
+   "edited": "2021-05-13T16:47:41",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Nova Enciclopedia di Leonia ed Aragonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/14"
+    },
+    " Davide Leone & Mario Castaldo, 2 novembre 2017 - Aragonia [Editoria di Aragonia]"
+   ]
+  },
+  {
+   "id": 16,
+   "type": "message",
+   "date": "2021-05-05T22:35:29",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Meglio uniti o divisi? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Meglio-uniti-o-divisi-10-13"
+    },
+    " Giovanni Zaccaria, 13 Ottobre 2018 - Agepoli [Leonardo]"
+   ]
+  },
+  {
+   "id": 17,
+   "type": "message",
+   "date": "2021-05-05T22:36:25",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Archivi di Leonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/scaffali/15"
+    },
+    " Davide Leone, None - Leonia [Stato di Leonia]"
+   ]
+  },
+  {
+   "id": 18,
+   "type": "message",
+   "date": "2021-05-05T22:36:58",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Ridefinizione del modello Universitario ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Ridefinizione-del-modello-Universitario-10-18"
+    },
+    " Giovanni Zaccaria, 18 Ottobre 2018 - Castaboro [ICC]"
+   ]
+  },
+  {
+   "id": 19,
+   "type": "message",
+   "date": "2021-05-05T22:37:26",
+   "edited": "2021-05-13T16:42:55",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dialogo sulla moneta statale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/5"
+    },
+    " Giovanni Zaccaria, 10 Novembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 20,
+   "type": "message",
+   "date": "2021-05-05T22:38:07",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dal Movimento Internazionale alla Federazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/scaffali/17"
+    },
+    " Davide Leone, 11 Novembre 2018 - OIDMA [Micronazionale]"
+   ]
+  },
+  {
+   "id": 21,
+   "type": "message",
+   "date": "2021-05-05T22:38:34",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dialogo Satirico 01",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-2xtJZK1t"
+    },
+    " Mario Castaldo, 11 Novembre 2018 - RFL [Fratelli di Zaccaria]"
+   ]
+  },
+  {
+   "id": 22,
+   "type": "message",
+   "date": "2021-05-05T22:39:09",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dialogo Innanzi l'Accademia sulle due concezioni di micronazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/scaffali/18"
+    },
+    " Davide Leone, 12 Novembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 23,
+   "type": "message",
+   "date": "2021-05-05T22:39:53",
+   "edited": "2021-05-08T12:47:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "In risposta a Giuseppe Verdi ed al suo articolo sull'OIDMA ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/44"
+    },
+    " Davide Leone, 14 Ottobre 2018 - Agepoli [Leonardo]"
+   ]
+  },
+  {
+   "id": 24,
+   "type": "message",
+   "date": "2021-05-05T22:40:27",
+   "edited": "2021-05-13T16:43:56",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'arte della Nazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/7"
+    },
+    " Giovanni Zaccaria, 13 Novembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 25,
+   "type": "message",
+   "date": "2021-05-05T22:45:21",
+   "edited": "2021-05-13T16:48:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulla questione della moneta nazionale quintomondista ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/17"
+    },
+    " Davide Leone, 25 Agosto 2017 - Aragonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 26,
+   "type": "message",
+   "date": "2021-05-05T22:45:56",
+   "edited": "2021-05-13T16:45:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il mondo delle micronazioni ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://t.me/ArchivioLum/11"
+    },
+    "Stefano Martina, 23 Maggio 2018 - Agepoli [popolare]"
+   ]
+  },
+  {
+   "id": 27,
+   "type": "message",
+   "date": "2021-05-05T22:46:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulla questione del modello micronazionale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sulla-questione-del-modello-micronazionale-11-19"
+    },
+    " Samuele Leone, 19 Novembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 28,
+   "type": "message",
+   "date": "2021-05-05T22:46:58",
+   "edited": "2021-05-13T16:50:20",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Volontà di Prigione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/19"
+    },
+    " Giovanni Zaccaria, 20 Novembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 29,
+   "type": "message",
+   "date": "2021-05-05T22:47:25",
+   "edited": "2021-05-13T16:51:39",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulla Libertà ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/22"
+    },
+    " Giovanni Zaccaria, 25 Novembre 2018 - RFL [ICZ]"
+   ]
+  },
+  {
+   "id": 30,
+   "type": "message",
+   "date": "2021-05-05T22:48:01",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Come non gestire una micronazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Come-NON-gestire-una-micronazione-11-27"
+    },
+    " Stefano Martina, 27 Novembre 2018 - Castaboro [Radiotelevisione Micronazionale]"
+   ]
+  },
+  {
+   "id": 31,
+   "type": "message",
+   "date": "2021-05-05T22:48:27",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il dialogo dialettico breve ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-dialogo-dialettico-breve-11-28"
+    },
+    " Giovanni Zaccaria, 28 Novembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 32,
+   "type": "message",
+   "date": "2021-05-05T22:49:41",
+   "edited": "2021-05-05T22:50:00",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La leggittimità della micronazione virtuale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-rUPObhJO"
+    },
+    " Davide Leone, 1 Dicembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 33,
+   "type": "message",
+   "date": "2021-05-05T22:50:31",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Allontanamento dall'OIDMA ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Allontanamento-dallOIDMA-12-05"
+    },
+    " Giovanni Zaccaria, 5 Dicembre 2018 - RFL [Rivista Privata Zaccaria]"
+   ]
+  },
+  {
+   "id": 34,
+   "type": "message",
+   "date": "2021-05-05T22:51:11",
+   "edited": "2021-05-13T16:43:24",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Grammatica della lingua di un popolo che non esiste ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://t.me/ArchivioLum/6"
+    },
+    "Giovanni Zaccaria, 7 Dicembre 2018 - RFL [ICZ]"
+   ]
+  },
+  {
+   "id": 35,
+   "type": "message",
+   "date": "2021-05-05T22:51:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Forse stiamo sbagliando ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Forse-stiamo-sbagliando-11-20"
+    },
+    " Giovanni Zaccaria, 20 Novembre 2018 - RFL [Fori Leonensi]"
+   ]
+  },
+  {
+   "id": 36,
+   "type": "message",
+   "date": "2021-05-05T22:52:22",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "S.G. ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/SG-05-06"
+    },
+    " Giuseppe Verdi, 6 Maggio 2018 - Castaboro [Teatro]"
+   ]
+  },
+  {
+   "id": 37,
+   "type": "message",
+   "date": "2021-05-05T22:52:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Gira ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/GIRA-05-06"
+    },
+    " Ivano Peddis, 6 Maggio 2018 - Castaboro [Teatro]"
+   ]
+  },
+  {
+   "id": 38,
+   "type": "message",
+   "date": "2021-05-05T22:53:25",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Ridefinizione del lessico politco ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Allontanamento-dallOIDMA-12-11"
+    },
+    " Giovanni Zaccaria, 11 Dicembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 39,
+   "type": "message",
+   "date": "2021-05-05T22:53:53",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dialogo con Leone su Agepoli ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Dialogo-con-Leone-su-Agepoli-12-11"
+    },
+    " Giovanni Zaccaria, 11 Dicembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 40,
+   "type": "message",
+   "date": "2021-05-05T22:54:33",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Agepoli come non l'avete mai vista ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/LALTRA-FACCIA-DELLA-LUNA-12-15"
+    },
+    " Giovanni Zaccaria, 15 Dicembre 2018 - RFL [Rivista Privata Zaccaria]"
+   ]
+  },
+  {
+   "id": 41,
+   "type": "message",
+   "date": "2021-05-05T22:54:57",
+   "edited": "2021-05-13T16:42:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dispotismi e Imperi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/3"
+    },
+    " Giovanni Zaccaria, 18 Dicembre 2018 - RFL [Rivista Privata Zaccaria]"
+   ]
+  },
+  {
+   "id": 42,
+   "type": "message",
+   "date": "2021-05-05T22:55:29",
+   "edited": "2021-05-13T16:49:49",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulla Micronazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/18"
+    },
+    " Vincenzo Iemma, 18 Dicembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 43,
+   "type": "message",
+   "date": "2021-05-05T22:55:57",
+   "edited": "2021-05-13T16:41:36",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Calcolo mentale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/2"
+    },
+    " Davide Leone, 26 Marzo 2017 - Leonia [FL Editore]"
+   ]
+  },
+  {
+   "id": 44,
+   "type": "message",
+   "date": "2021-05-05T22:56:21",
+   "edited": "2021-05-13T16:44:30",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Elogio al dualismo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/8"
+    },
+    " Giovanni Zaccaria, 20 Dicembre 2018 - RFL [Rivista Privata Zaccaria]"
+   ]
+  },
+  {
+   "id": 45,
+   "type": "message",
+   "date": "2021-05-05T22:56:50",
+   "edited": "2021-05-13T16:48:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Storia dell'ingresso di Castellonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/15"
+    },
+    " Giovanni Zaccaria, 21 Dicembre 2018 - RFL [History Channel]"
+   ]
+  },
+  {
+   "id": 46,
+   "type": "message",
+   "date": "2021-05-05T22:57:39",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La questione della territorialità ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Micronazioni-e-la-questione-della-territorialit%C3%A0-04-24"
+    },
+    " Davide Rambaldi, 24 aprile 2018 - Castaboro [Micronazionale]"
+   ]
+  },
+  {
+   "id": 47,
+   "type": "message",
+   "date": "2021-05-05T22:58:09",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Le tasse ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Le-Tasse-12-26"
+    },
+    " Davide Rambaldi, 1 maggio 2018 - Castaboro [Micronazionale]"
+   ]
+  },
+  {
+   "id": 48,
+   "type": "message",
+   "date": "2021-05-05T22:59:08",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Approfondimento su Agepoli ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Approfondimento-su-Agepoli-12-26"
+    },
+    " Davide Rambaldi, 18 giugno 2018 - Agepoli [Micronazionale]"
+   ]
+  },
+  {
+   "id": 49,
+   "type": "message",
+   "date": "2021-05-05T22:59:37",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Cittadinanza e libera circolazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/CITTADINANZA-E-LIBERA-CIRCOLAZIONE-12-26"
+    },
+    " Davide Rambaldi, 6 settembre 2018 - Agepoli [Micronazionale]"
+   ]
+  },
+  {
+   "id": 50,
+   "type": "message",
+   "date": "2021-05-05T23:00:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La caduta di Marco I ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-caduta-di-Marco-I-12-26"
+    },
+    " Davide Leone, 1 novembre 2018 - Agepoli [Micronazionale]"
+   ]
+  },
+  {
+   "id": 51,
+   "type": "message",
+   "date": "2021-05-05T23:00:57",
+   "edited": "2021-05-13T16:56:23",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il dilemma di Rambaldi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/31"
+    },
+    " Giovanni Zaccaria, 29 dicembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 52,
+   "type": "message",
+   "date": "2021-05-05T23:01:36",
+   "edited": "2021-05-13T16:56:54",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "I modelli culturali leonensi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/32"
+    },
+    " Davide Leone, 26 novembre 2018 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 53,
+   "type": "message",
+   "date": "2021-05-05T23:02:55",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un movimento retrogrado ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Un-movimento-retrogrado-11-17"
+    },
+    " Hearot, 17 novembre 2018 - OIDMA [Unitas]"
+   ]
+  },
+  {
+   "id": 54,
+   "type": "message",
+   "date": "2021-05-05T23:03:22",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un nuovo imperatore ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Un-nuovo-imperatore-11-17"
+    },
+    " Hearot, 17 novembre 2018 - OIDMA [Unitas]"
+   ]
+  },
+  {
+   "id": 55,
+   "type": "message",
+   "date": "2021-05-05T23:04:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Cos'è Unitas? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Unitas-che-cos%C3%A8-12-20"
+    },
+    " Hearot, 20 dicembre 2018 - Castaboro [Unitas]"
+   ]
+  },
+  {
+   "id": 56,
+   "type": "message",
+   "date": "2021-05-05T23:04:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un'unità inesistente ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Ununit%C3%A0-inesistente-12-20"
+    },
+    " Hearot, 20 dicembre 2018 - Castaboro [Unitas]"
+   ]
+  },
+  {
+   "id": 57,
+   "type": "message",
+   "date": "2021-05-05T23:04:51",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il sestomondo sui giornali ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-sestomondo-sui-giornali-12-30"
+    },
+    " Luigi Cristofaro, 30 dicembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 58,
+   "type": "message",
+   "date": "2021-05-05T23:05:30",
+   "edited": "2021-05-13T16:55:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulla polizia micronazionale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/30"
+    },
+    " Giuseppe Verdi, 30 dicembre 2018 - Castaboro [Ø]"
+   ]
+  },
+  {
+   "id": 59,
+   "type": "message",
+   "date": "2021-05-05T23:05:52",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'instabilità di Ghelda ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Linstabilit%C3%A0-di-Ghelda-11-29"
+    },
+    " Samuele Leone, 30 novembre 2018 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 60,
+   "type": "message",
+   "date": "2021-05-05T23:06:23",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Chiusure, guerre, scissioni... Che sta succedendo? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Chiusure-guerre-scissioni-Che-sta-succedendo-09-07"
+    },
+    " Davide Leone, 7 settembre 2017 - Aragonia [Aragonia Herald]"
+   ]
+  },
+  {
+   "id": 61,
+   "type": "message",
+   "date": "2021-05-05T23:06:50",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Una storia di amore e di terrorismo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADeQUAAsI6eVGo8RX-rxM_BAI"
+    },
+    " Giuseppe Verdi, 4 Gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 62,
+   "type": "message",
+   "date": "2021-05-05T23:07:20",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Plutarco ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADxQUAAsI6gVFoCWQW9SbqTAI"
+    },
+    " Raffaele Ferraro, 5 Gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 63,
+   "type": "message",
+   "date": "2021-05-05T23:07:50",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Anniversario col botto ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Anniversario-col-Botto-04-05"
+    },
+    " Davide Rambaldi, 5 Aprile 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 64,
+   "type": "message",
+   "date": "2021-05-05T23:08:21",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La fiaba di Ghelda ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-fiaba-di-Ghelda-01-05"
+    },
+    " Valerio Marocchi, 5 Gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 65,
+   "type": "message",
+   "date": "2021-05-05T23:20:01",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il futuro dell'OIDMA ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-gTuBBW2U"
+    },
+    " Davide Leone, 6 Dicembre 2018 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 66,
+   "type": "message",
+   "date": "2021-05-05T23:20:50",
+   "edited": "2021-05-05T23:20:56",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La crisi di Gennaio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-Crisi-di-Gennaio-01-05"
+    },
+    " Raffaele Ferraro, 6 gennaio 2019 - Iridia [Izequierda]"
+   ]
+  },
+  {
+   "id": 67,
+   "type": "message",
+   "date": "2021-05-05T23:21:21",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sul rubinismo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sul-rubinismo-12-07"
+    },
+    " Raffaele Ferraro, 7 dicembre 2018 - Castaboro [Izequierda della domenica]"
+   ]
+  },
+  {
+   "id": 68,
+   "type": "message",
+   "date": "2021-05-05T23:21:54",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il sonno della ragione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADEwYAAnsvmVH-9Q8XFJsOSgI"
+    },
+    " Raffaele Ferraro, 6 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 69,
+   "type": "message",
+   "date": "2021-05-05T23:22:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La rivoluzione che non c'è ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-p2C92RzP"
+    },
+    " Cesare Orlando, 8 dicembre 2018 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 70,
+   "type": "message",
+   "date": "2021-05-05T23:22:21",
+   "edited": "2021-05-05T23:22:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Classici greci e latini: mondo oramai scomparso? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/CLASSICI-GRECI-E-LATINI-mondo-ormai-scomparso-02-25"
+    },
+    " Gianmarco Rubino, 28 febbraio 2018 - Castaboro [Università di Castaboro]"
+   ]
+  },
+  {
+   "id": 71,
+   "type": "message",
+   "date": "2021-05-05T23:22:58",
+   "edited": "2021-05-05T23:23:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sul fallimento delle monete quintomondiste ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-6wadCNUV"
+    },
+    " Davide Leone, 18 ottobre 2018 - Agepoli [Leonardo]"
+   ]
+  },
+  {
+   "id": 72,
+   "type": "message",
+   "date": "2021-05-05T23:23:33",
+   "edited": "2021-05-05T23:23:38",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Gianmarco Rubino ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Intervista-allon-Gianmarco-Rubino-PP-03-30"
+    },
+    " Cesare Orlando, 30 marzo 2018 - Castaboro [Polis]"
+   ]
+  },
+  {
+   "id": 73,
+   "type": "message",
+   "date": "2021-05-05T23:23:43",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista ad Alessandro Santucci ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-ad-Alessandro-Santucci-PSD-03-30"
+    },
+    " Cesare Orlando, 30 marzo 2018 - Castaboro [Polis]"
+   ]
+  },
+  {
+   "id": 74,
+   "type": "message",
+   "date": "2021-05-05T23:25:55",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Giuseppe Verdi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/INTERVISTA-A-GIUSEPPE-VERDI-PRESIDENTE-DEL-CONSIGLIO-DELLA-REPUBBLICA-11-19"
+    },
+    " Raffaele Ferraro, 19 novembre 2018 - Castaboro [Izequierda]"
+   ]
+  },
+  {
+   "id": 75,
+   "type": "message",
+   "date": "2021-05-05T23:25:57",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Gazzetta di Castaboro, numero 1 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=do-BQADBAADGQUAAsGDwFCeJnZw9Su9FAI"
+    },
+    " Giovanni Zaccaria, 11 settembre 2018 - Castaboro [Gazzetta di Castaboro]"
+   ]
+  },
+  {
+   "id": 76,
+   "type": "message",
+   "date": "2021-05-05T23:26:20",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Gazzetta di Castaboro, numero 2 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADdgQAAuwyyVArCoufK9423wI"
+    },
+    " Giovanni Zaccaria, 12 settembre 2018 - Castaboro [Gazzetta di Castaboro]"
+   ]
+  },
+  {
+   "id": 77,
+   "type": "message",
+   "date": "2021-05-05T23:26:27",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Gazzetta di Castaboro, numero 3 ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://t.me/anonuploadbot?start=do-BQADBAADrAUAAuwy0VCrnl2JSVJPHwI"
+    },
+    "Giovanni Zaccaria, 13 settembre 2018 - Castaboro [Gazzetta di Castaboro]"
+   ]
+  },
+  {
+   "id": 78,
+   "type": "message",
+   "date": "2021-05-05T23:26:39",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Gazzetta di Castaboro, numero 4 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADpgUAAri72FD54RVE8x-TtgI"
+    },
+    " Giovanni Zaccaria, 14 settembre 2018 - Castaboro [Gazzetta di Castaboro]"
+   ]
+  },
+  {
+   "id": 79,
+   "type": "message",
+   "date": "2021-05-05T23:27:02",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Gazzetta di Castaboro, numero 5 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=do-BQADBAADgwQAAgUe6VAHx3Ij8XOSMwI"
+    },
+    " Giovanni Zaccaria, 15 settembre 2018 - Castaboro [Gazzetta di Castaboro]"
+   ]
+  },
+  {
+   "id": 80,
+   "type": "message",
+   "date": "2021-05-05T23:27:18",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Gazzetta di Castaboro, numero 6 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADtwQAAsFVYVGMrF68S5W8BAI"
+    },
+    " Giovanni Zaccaria, 27 settembre 2018 - Castaboro [Gazzetta di Castaboro]"
+   ]
+  },
+  {
+   "id": 81,
+   "type": "message",
+   "date": "2021-05-05T23:27:46",
+   "edited": "2021-05-05T23:27:56",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "I Pokénation: Castaboro ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://telegra.ph/I---Pok%C3%A9nation-Castaboro-01-10"
+    },
+    "Ivano Peddis, 10 gennaio 2019 - Castaboro [Castarrori]"
+   ]
+  },
+  {
+   "id": 82,
+   "type": "message",
+   "date": "2021-05-05T23:28:20",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Gazzetta Leonense, numero 1 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAAD7wMAAr3noVOvaJYb1Y8HSAI"
+    },
+    " Giovanni Zaccaria, 20 novembre 2018 - RFL [Gazzetta Leonense]"
+   ]
+  },
+  {
+   "id": 83,
+   "type": "message",
+   "date": "2021-05-05T23:28:38",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Polis il giornale, numero 1 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=do-BQADBAADswMAAnDOCVI-CBajnQMEUQI"
+    },
+    " Gianmarco Rubino, 1 aprile 2018 - Castaboro [Polis]"
+   ]
+  },
+  {
+   "id": 84,
+   "type": "message",
+   "date": "2021-05-05T23:28:52",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Giovanni Zaccaria ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://telegra.ph/Intervista-a-Giovanni-Zaccaria-12-04"
+    },
+    "Stefano Martina, 4 dicembre 2018 - RFL [RadioTelevisione Micronazionale]"
+   ]
+  },
+  {
+   "id": 85,
+   "type": "message",
+   "date": "2021-05-05T23:29:37",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dialogo col Presidente Leone ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sturm-und-drang-parte-I-dialogo-con-il-presidente-Leone-11-19"
+    },
+    " Raffaele Ferraro, 19 novembre 2018 - Castaboro [Izequierda]"
+   ]
+  },
+  {
+   "id": 86,
+   "type": "message",
+   "date": "2021-05-05T23:32:05",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'humanitas nell'antichità ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/LHumanitas-nellantichit%C3%A0-01-12"
+    },
+    " Gianmarco Rubino, 12 gennaio 2019 - Castaboro [Polis]"
+   ]
+  },
+  {
+   "id": 87,
+   "type": "message",
+   "date": "2021-05-05T23:33:54",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Chiacchierando col Principe ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Chiacchierando-col-Principe-05-19"
+    },
+    " Davide Leone, 19 maggio 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 88,
+   "type": "message",
+   "date": "2021-05-05T23:34:20",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "\"La cosa migliore è tassare\" intervista al neopresidente Rubino ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/La-cosa-migliore-%C3%A8-tassare-intervista-al-neo-Presidente-Rubino-G-03-28"
+    },
+    " Davide Leone, 28 marzo 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 89,
+   "type": "message",
+   "date": "2021-05-05T23:34:50",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Perché i contenuti gratuiti di IAPL non funzionano ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Perch%C3%A9-i-contenuti-gratuiti-di-IAPL-non-funzionano-06-02"
+    },
+    " Davide Leone, 2 giugno 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 90,
+   "type": "message",
+   "date": "2021-05-05T23:35:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Programma del Partito Popolare ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAAD7QMAAt7yQVLlnpabQipqzQI"
+    },
+    " 6 aprile 2018 - Castaboro"
+   ]
+  },
+  {
+   "id": 91,
+   "type": "message",
+   "date": "2021-05-05T23:36:08",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Appello alla coscienza della gente ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Appello-alla-coscienza-della-gente-12-28"
+    },
+    " Stefano Martina, 28 dicembre 2018 - RFL [RadioTelevisione Micronazionale]"
+   ]
+  },
+  {
+   "id": 92,
+   "type": "message",
+   "date": "2021-05-05T23:36:35",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista al leader del Partito Pirata ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Intervista-al-leader-del-Partito-Pirata-02-05"
+    },
+    " Vincenzo Iemma, 5 febbraio 2018 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 93,
+   "type": "message",
+   "date": "2021-05-05T23:37:02",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Programma politico del Partito Pirata ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Programma-politico-Castaboro-02-04"
+    },
+    " Davide Leone, 4 febbraio 2018 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 94,
+   "type": "message",
+   "date": "2021-05-05T23:37:48",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Storia del Freeland ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/STORIA-DEL-FREELAND-Riedizione-del-13-Gennaio-2019-01-16"
+    },
+    " Gianmarco Rubino, 13 gennaio 2019 - Castaboro [Polis]"
+   ]
+  },
+  {
+   "id": 95,
+   "type": "message",
+   "date": "2021-05-05T23:38:17",
+   "edited": "2021-05-13T16:55:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Cantico dei morti ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/29"
+    },
+    " Raffaele Ferraro, 15 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 96,
+   "type": "message",
+   "date": "2021-05-05T23:39:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dell'obiettivo delle micronazioni ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Dellobiettivo-delle-micronazioni-01-16"
+    },
+    " Samuele Leone, 16 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 97,
+   "type": "message",
+   "date": "2021-05-05T23:39:43",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Allora, ci sono Iemma e Leone in un bar ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Allora-ci-sono-Iemma-e-Leone-in-un-bar-01-16"
+    },
+    " Raffaele Ferraro, 16 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 98,
+   "type": "message",
+   "date": "2021-05-05T23:40:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lettera ai leonensi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAAD9QUAAmHW6VE9yr1RBaczHQI"
+    },
+    " Anonimo, 14 gennaio 2019 - RFL [N.A.]"
+   ]
+  },
+  {
+   "id": 99,
+   "type": "message",
+   "date": "2021-05-05T23:41:24",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Programma della Lega Sociale",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "http://telegra.ph/Programma-della-Lega-Sociale-03-30"
+    },
+    " 30 marzo 2018 - Castaboro [Primato Nazionale]"
+   ]
+  },
+  {
+   "id": 100,
+   "type": "message",
+   "date": "2021-05-06T00:14:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Parliamone, ovvero della crisi dei giornali ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Parliamone-1-05-20"
+    },
+    " Davide Leone, 20 maggio 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 102,
+   "type": "message",
+   "date": "2021-05-06T13:08:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Leonia in quattro punti ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Leonia-in-4-punti-08-20"
+    },
+    " Davide Rambaldi, 20 agosto 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 103,
+   "type": "message",
+   "date": "2021-05-06T13:08:41",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Freeland, quando la politica ha fallito ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Freeland-quando-la-politica-ha-fallito-04-01"
+    },
+    " Davide Leone, 1 aprile 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 104,
+   "type": "message",
+   "date": "2021-05-06T13:09:11",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Qualche ragionamento su Gabriel Hearot ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Qualche-ragionamento-su-Gabriel-Hearot-01-13"
+    },
+    " Stefano Martina, 13 gennaio 2019 - RFL [RadioTelevisione Micronazionale]"
+   ]
+  },
+  {
+   "id": 105,
+   "type": "message",
+   "date": "2021-05-06T13:09:35",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La corte dei miracoli ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/La-Corte-dei-Miracoli-06-04"
+    },
+    " Davide Rambaldi, 4 giugno 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 106,
+   "type": "message",
+   "date": "2021-05-06T13:11:09",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Chi non muore... ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Chi-non-muore-04-07"
+    },
+    " Davide Rambaldi, 7 aprile 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 107,
+   "type": "message",
+   "date": "2021-05-06T13:11:35",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'interrogatorio ",
+    {
+     "type": "text_link",
+     "text": "✳️",
+     "href": "https://telegra.ph/Il-processo-01-20"
+    },
+    " Raffaele Ferraro, 21 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 108,
+   "type": "message",
+   "date": "2021-05-06T13:12:02",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "A te ",
+    {
+     "type": "text_link",
+     "text": "✳️",
+     "href": "https://telegra.ph/A-TE-01-19"
+    },
+    " Simone Acquasanta, 19 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 109,
+   "type": "message",
+   "date": "2021-05-06T13:12:30",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La lunga giornata di Johannes Webern ",
+    {
+     "type": "text_link",
+     "text": "✳️",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADfQUAAljiEFJq8iV9dYjAngI"
+    },
+    " Raffaele Ferraro, 19 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 110,
+   "type": "message",
+   "date": "2021-05-06T13:12:57",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista al pluriministro Giovanni Zaccaria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-al-pluriministro-Zaccaria-Giovanni-01-21"
+    },
+    " Valerio Marocchi, 21 gennaio 2019 - RFL [Il Giornale Leonense]"
+   ]
+  },
+  {
+   "id": 111,
+   "type": "message",
+   "date": "2021-05-06T13:13:28",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista al Presidente della Repubblica Carlo Cesare Orlando ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-al-Presidente-della-Repubblica-Carlo-Cesare-Orlando-01-19"
+    },
+    " Valerio Marocchi, 19 gennaio 2019 - RFL [Il Giornale Leonense]"
+   ]
+  },
+  {
+   "id": 112,
+   "type": "message",
+   "date": "2021-05-06T13:13:52",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il progetto culturale ed Aragonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Il-progetto-culturale-ed-Aragonia-05-20"
+    },
+    " Davide Leone, 20 maggio 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 113,
+   "type": "message",
+   "date": "2021-05-06T13:14:29",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "MSC ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-c49RuH1O"
+    },
+    " Cesare Orlando, 23 dicembre 2018 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 114,
+   "type": "message",
+   "date": "2021-05-06T13:15:00",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Indagini contro il Presidente del Consiglio Vincenzo Iemma ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Indagini-contro-il-Presidente-del-Consiglio-Vincenzo-Iemma-01-04"
+    },
+    " Vincenzo Iemma, 4 gennaio 2019 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 115,
+   "type": "message",
+   "date": "2021-05-06T13:15:28",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Programma del Partito Socialista Democratico ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAAD7AMAAt7yQVJuwKdPwIXYrwI"
+    },
+    "6 aprile 2018 - Castaboro"
+   ]
+  },
+  {
+   "id": 116,
+   "type": "message",
+   "date": "2021-05-06T13:16:07",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Analisi dei maggiori partiti nazionali ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/ANALISI-DEI-MAGGIORI-PARTITI-NAZIONALI-03-29"
+    },
+    " Gianmarco Rubino, 29 marzo 2018 - Castaboro [Polis]"
+   ]
+  },
+  {
+   "id": 117,
+   "type": "message",
+   "date": "2021-05-06T13:16:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Elezioni: guida per l'uso ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Elezioni-guida-per-luso-04-07"
+    },
+    " Giuseppe Verdi, 7 aprile 2018 - Castaboro [Il Primato Castaborense]"
+   ]
+  },
+  {
+   "id": 118,
+   "type": "message",
+   "date": "2021-05-06T13:17:18",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un felice addio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Un-felice-addio-08-30"
+    },
+    " Davide Leone, 1 settembre 2017 - Aragonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 119,
+   "type": "message",
+   "date": "2021-05-06T13:17:44",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Cosa faranno le colonie di Leonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Cosa-faranno-le-colonie-di-Leonia-05-17"
+    },
+    " Davide Leone, 17 maggio 2017 - Leonia [Leonia Post]"
+   ]
+  },
+  {
+   "id": 120,
+   "type": "message",
+   "date": "2021-05-06T13:18:16",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il Sesto Mondo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-6Ssc6XGZ"
+    },
+    " Cesare Orlando, 28 dicembre 2018 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 121,
+   "type": "message",
+   "date": "2021-05-06T13:18:47",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Verso le elezioni: intervista al segretario di Forza Castaboro ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Verso-le-elezioni-intervista-al-Segretario-di-Forza-Castaboro-07-08"
+    },
+    " Vincenzo Iemma, 8 luglio 2018 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 122,
+   "type": "message",
+   "date": "2021-05-06T13:19:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'iniziativa privata all'interno delle micronazioni ",
+    {
+     "type": "text_link",
+     "text": "✳️",
+     "href": "https://telegra.ph/Liniziativa-privata-allinterno-delle-micronazioni-01-22"
+    },
+    " Samuele Leone, 23 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 123,
+   "type": "message",
+   "date": "2021-05-06T13:20:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Musica ",
+    {
+     "type": "text_link",
+     "text": "✳️",
+     "href": "https://telegra.ph/Musica-01-23"
+    },
+    " Raffaele Ferraro, 23 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 124,
+   "type": "message",
+   "date": "2021-05-06T13:21:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Abbozzatura delle ideologie quintomondiste ",
+    {
+     "type": "text_link",
+     "text": "✳️",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADagQAAlQkcVJs7rFgHmpfLAI"
+    },
+    " Cesare Orlando, 28 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 125,
+   "type": "message",
+   "date": "2021-05-06T13:21:44",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Ti odio ",
+    {
+     "type": "text_link",
+     "text": "✳️",
+     "href": "https://telegra.ph/Ti-odio-01-29"
+    },
+    " Raffaele Ferraro, 29 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 126,
+   "type": "message",
+   "date": "2021-05-06T13:22:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La Bibbia delle micronazioni ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-HzCFV26r"
+    },
+    " Cesare Orlando, 27 dicembre 2018 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 127,
+   "type": "message",
+   "date": "2021-05-06T13:22:38",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sei ",
+    {
+     "type": "text_link",
+     "text": "✳️",
+     "href": "https://telegra.ph/Sei-01-29"
+    },
+    " Giuseppe Verdi, 29 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 128,
+   "type": "message",
+   "date": "2021-05-06T13:23:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il consesso dei folli - Parte CCC*X^CCC ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-Consesso-dei-Folli---Parte-CCCXCCC-01-29"
+    },
+    " Raffaele Ferraro, 29 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 129,
+   "type": "message",
+   "date": "2021-05-06T13:23:31",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Freeland indipendente, Vertice Leonia-FreeLand-Ibitania ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/FreeLand-indipendente-Vertice-Leonia-FreeLand-Ibitania-06-02"
+    },
+    " Gianmarco Rubino, 2 giugno 2017 - Leonia [Quotidiano Leonense]"
+   ]
+  },
+  {
+   "id": 130,
+   "type": "message",
+   "date": "2021-05-06T13:24:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sogno ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sogno-02-03"
+    },
+    " Raffaele Ferraro, 3 febbraio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 131,
+   "type": "message",
+   "date": "2021-05-06T13:24:45",
+   "edited": "2021-05-13T16:51:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un calendario per la Leonidia",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://t.me/ArchivioLum/21"
+    },
+    " Giovanni Zaccaria, 30 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 132,
+   "type": "message",
+   "date": "2021-05-06T13:25:26",
+   "edited": "2021-05-13T16:54:09",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La Federazione. Vero modello? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/27"
+    },
+    " Vincenzo Iemma, 10 febbraio 2019 - Castaboro [Gruppo di Castaboro]"
+   ]
+  },
+  {
+   "id": 133,
+   "type": "message",
+   "date": "2021-05-06T13:25:53",
+   "edited": "2021-05-06T13:26:36",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La nascita di Leonia",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://telegra.ph/La-nascita-di-Leonia-01-26"
+    },
+    "   Giovanni Zaccaria, 26 gennaio 2019 - RFL [History Channel]"
+   ]
+  },
+  {
+   "id": 134,
+   "type": "message",
+   "date": "2021-05-06T13:26:18",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "E se un giorno ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/E-ti-chiederanno-se-mi-conosci-02-18"
+    },
+    " Raffaele Ferraro, 18 febbraio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 135,
+   "type": "message",
+   "date": "2021-05-06T13:26:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La micronazione fantasma ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://telegra.ph/La-micronazione-fantasma-02-11"
+    },
+    "Luigi Cristofaro, 11 febbraio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 136,
+   "type": "message",
+   "date": "2021-05-06T13:27:13",
+   "edited": "2021-05-06T13:27:51",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il megacleb malefico dei comunisti chei ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/IL-MEGACLEB-MALEFICO-DEI-COMUNISTI-CHEI-01-30"
+    },
+    " Raffaele Ferraro, gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 137,
+   "type": "message",
+   "date": "2021-05-06T13:27:37",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Cosa può fare Iridia? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Cosa-pu%C3%B2-fare-Iridia-01-27-2"
+    },
+    " Luigi Cristofaro, 27 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 138,
+   "type": "message",
+   "date": "2021-05-06T13:28:18",
+   "edited": "2021-05-13T16:53:42",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Indagini per il commissario Demaria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/26"
+    },
+    " Giuseppe Verdi, 11 febbraio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 139,
+   "type": "message",
+   "date": "2021-05-06T13:28:30",
+   "edited": "2021-05-13T16:47:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'Eupolitico ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/13"
+    },
+    " Giovanni Zaccaria, 27 febbraio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 140,
+   "type": "message",
+   "date": "2021-05-06T13:28:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La normalità ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-Normalit%C3%A0-02-28"
+    },
+    " Raffaele Ferraro, 28 febbraio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 141,
+   "type": "message",
+   "date": "2021-05-06T13:29:12",
+   "edited": "2021-05-13T16:46:01",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Mandorle amare ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/12"
+    },
+    " Raffaele Ferrario, 4 marzo 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 142,
+   "type": "message",
+   "date": "2021-05-06T13:29:37",
+   "edited": "2021-05-13T16:53:11",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La II costituzione di Leonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/25"
+    },
+    " Giovanni Zaccaria, 11 marzo 2019 - RFL [History Channel]"
+   ]
+  },
+  {
+   "id": 143,
+   "type": "message",
+   "date": "2021-05-06T13:29:40",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Civico 26 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Civico-26-02-28"
+    },
+    " Simone Acquasanta, 28 febbraio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 144,
+   "type": "message",
+   "date": "2021-05-06T13:30:07",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Riprendetevi tutto ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Riprendetevi-tutto-03-08"
+    },
+    " Raffaele Ferraro, 8 marzo 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 145,
+   "type": "message",
+   "date": "2021-05-06T13:30:23",
+   "edited": "2021-05-13T16:52:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Grazie ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/24"
+    },
+    " Luigi Cristofaro, 12 marzo 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 146,
+   "type": "message",
+   "date": "2021-05-06T13:30:36",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Beatitudini",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://telegra.ph/Beatitudini-03-15"
+    },
+    " Raffaele Ferraro, 16 marzo 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 147,
+   "type": "message",
+   "date": "2021-05-06T13:30:51",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Tutti gli scritti ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=do-BQADBAAD2gUAAi1GsVO_X3LIGiBR5wI"
+    },
+    " Davide Rambaldi, edizione a cura di Cesare Orlando, 27 febbraio 2019 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 148,
+   "type": "message",
+   "date": "2021-05-06T13:31:02",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Terzo stato federato ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-EWGpOt98"
+    },
+    " Cesare Orlando, 7 febbraio - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 149,
+   "type": "message",
+   "date": "2021-05-06T13:31:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Potessi io ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Potessi-io-03-26"
+    },
+    " Raffaele Ferraro, 26 marzo 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 150,
+   "type": "message",
+   "date": "2021-05-06T13:31:34",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Elezioni senatorie ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/scaffali/44"
+    },
+    " Gianmarco Rubino, 22 febbario 2017 - Leonia [Polis]"
+   ]
+  },
+  {
+   "id": 151,
+   "type": "message",
+   "date": "2021-05-06T13:31:42",
+   "edited": "2021-05-06T13:31:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Freeland al voto - I programmi elettorali ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Freeland-al-voto---I-programmi-elettorali-12-26"
+    },
+    " [Davide Leone], 26 dicembre 2016 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 152,
+   "type": "message",
+   "date": "2021-05-06T13:32:17",
+   "edited": "2021-05-13T16:52:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Descrizione delle ideologie micronazionali maggioritarie ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/23"
+    },
+    " Raffaele Ferraro, 18 aprile 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 153,
+   "type": "message",
+   "date": "2021-05-06T13:32:20",
+   "edited": "2021-05-13T16:50:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Una rosa di Fiamma ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://t.me/ArchivioLum/20"
+    },
+    "Giuseppe Verdi, 21 aprile 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 154,
+   "type": "message",
+   "date": "2021-05-06T13:32:42",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Relazione sulle micronazioni ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/Relazione-sulle-micronazioni-02-02"
+    },
+    " Gianmarco Rubino, 2 febbraio 2017 - Leonia [Polis]"
+   ]
+  },
+  {
+   "id": 155,
+   "type": "message",
+   "date": "2021-05-06T13:32:49",
+   "edited": "2021-05-06T13:32:54",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Come strutturare un giornale? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Articolo-TECNICO-Come-strutturare-un-giornale-02-03"
+    },
+    " Gianmarco Rubino, 3 febbraio 2017 - Leonia [Polis]"
+   ]
+  },
+  {
+   "id": 156,
+   "type": "message",
+   "date": "2021-05-06T13:33:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sardinia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sardinia-04-13"
+    },
+    " Raffaele Ferraro, 13 aprile 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 157,
+   "type": "message",
+   "date": "2021-05-06T13:33:28",
+   "edited": "2021-05-06T13:33:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lo specchio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=do-BQADBAADMgYAAnsHKFKSyoTQcF72jQI"
+    },
+    " Raffaele Ferraro, 27 aprile 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 158,
+   "type": "message",
+   "date": "2021-05-06T13:33:36",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La caduta del Principe ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-GlOyjrVQ"
+    },
+    " Cesare Orlando, 28 aprile 2019 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 159,
+   "type": "message",
+   "date": "2021-05-06T13:34:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La morte della Leonidia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-2tgXn3tw"
+    },
+    " Giovanni Zaccaria, 25-26 aprile 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 160,
+   "type": "message",
+   "date": "2021-05-06T13:34:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'ultranazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-j3D0rOAH"
+    },
+    " Cesare Orlando, 29 aprile 2019 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 161,
+   "type": "message",
+   "date": "2021-05-06T13:34:23",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il declino delle micronazioni ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/MICRO-1608-08-16"
+    },
+    " Simone Palladino, 16 agosto 2019 - RFL [MICRO]"
+   ]
+  },
+  {
+   "id": 162,
+   "type": "message",
+   "date": "2021-05-06T13:34:31",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lettera ai federati ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-KzkJTVGX"
+    },
+    " Giovanni Zaccaria, 1 ottobre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 163,
+   "type": "message",
+   "date": "2021-05-06T13:34:47",
+   "edited": "2021-05-06T13:34:58",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Orazione di fine settembre ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=do-BQADBAADpAUAAsw5qFBoQh3fUDhRxBYE"
+    },
+    " Cesare Orlando, 30 settembre 2019 - RFL [Senato della Repubblica]"
+   ]
+  },
+  {
+   "id": 164,
+   "type": "message",
+   "date": "2021-05-06T13:35:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Discorso all'Accademia sulla pluricittadinanza ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-NgIXOk2a"
+    },
+    " Simone Irsuto, 3 ottobre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 165,
+   "type": "message",
+   "date": "2021-05-06T13:35:30",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il declino demografico castaborense ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-trlgTyrM"
+    },
+    " Cesare Orlando, 3 ottobre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 166,
+   "type": "message",
+   "date": "2021-05-06T13:35:33",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Speciale per il compleanno di Ghelda",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADpwYAAjWEoVKrJHV3SWNkMhYE"
+    },
+    " Luigi Cristofaro, 15 agosto 2019 - RFL [Il Rivoluzionario]"
+   ]
+  },
+  {
+   "id": 167,
+   "type": "message",
+   "date": "2021-05-06T13:35:53",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La legge contro la doppia cittadinanza ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-legge-contro-la-doppia-cittadinanza-04-03-2"
+    },
+    " Luigi Cristofaro, 3 aprile 2019, RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 168,
+   "type": "message",
+   "date": "2021-05-06T13:36:05",
+   "edited": "2021-05-13T16:55:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Discorso di fine anno ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/ArchivioLum/28"
+    },
+    " Ivano Peddis, 31 dicembre 2018 - Castaboro [RadioTelevisione di Stato]"
+   ]
+  },
+  {
+   "id": 169,
+   "type": "message",
+   "date": "2021-05-06T13:36:21",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Amo troppo la vita altrui ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Amo-troppo-la-vita-altrui-10-06"
+    },
+    " Raffaele Ferraro, 6 ottobre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 170,
+   "type": "message",
+   "date": "2021-05-06T13:36:39",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Discorso di addio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Giovanni-Zaccaria-04-30"
+    },
+    " Giovanni Zaccaria, 1 maggio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 171,
+   "type": "message",
+   "date": "2021-05-06T13:36:48",
+   "edited": "2021-05-06T13:36:52",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Discorso di fine anno ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-syY0y7jd"
+    },
+    " Cesare Orlando, 31 dicembre 2018 - RFL [Senato della Repubblica]"
+   ]
+  },
+  {
+   "id": 172,
+   "type": "message",
+   "date": "2021-05-06T13:37:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La morte del quintomondo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-morte-del-quinto-mondo-06-03"
+    },
+    " Giuseppe Verdi, 3 giugno 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 173,
+   "type": "message",
+   "date": "2021-05-06T13:37:31",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Domenico Alcatraz ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Domenico-Alcatraz-leader-di-Direzione-Futuro-10-07"
+    },
+    " Cesare Orlando, 7 ottobre 2019 - RFL [Micronazionale]"
+   ]
+  },
+  {
+   "id": 174,
+   "type": "message",
+   "date": "2021-05-06T13:38:05",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Stato e micronazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Stato-e-micronazione-01-03"
+    },
+    " Raffaele Ferraro, 3 gennaio 2019 - Castaboro [Izequierda della Domenica]"
+   ]
+  },
+  {
+   "id": 175,
+   "type": "message",
+   "date": "2021-05-06T13:38:11",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Giovanni Bordignon, caino o incompreso?",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://telegra.ph/Giovanni-Bordignon-caino-o-incompreso-09-16"
+    },
+    " Giuseppe Verdi, 16 settembre 2018 - Castaboro [Il Primato Castaborense]"
+   ]
+  },
+  {
+   "id": 176,
+   "type": "message",
+   "date": "2021-05-06T13:38:30",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Oggi piove piombo - Kurdistan 2019 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Oggi-piove-piombo---Kurdistan-2019-10-10"
+    },
+    " Raffaele Ferraro, 10 ottobre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 177,
+   "type": "message",
+   "date": "2021-05-06T13:38:34",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a G. Zaccaria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Giovanni-Zaccaria-10-10"
+    },
+    " Simone Acquasanta, 10 ottobre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 178,
+   "type": "message",
+   "date": "2021-05-06T13:38:57",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Castaboro compie ventiquattro ore ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-zq9hjImB"
+    },
+    " Giovanni Zaccaria, 13 ottobre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 179,
+   "type": "message",
+   "date": "2021-05-06T13:39:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sull'ingresso di Castaboro nella Repubblica Federale Leonense ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sullingresso-di-Castaboro-nella-Repubblica-Federale-Leonense-10-15"
+    },
+    " Cesare Orlando, 13 ottobre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 180,
+   "type": "message",
+   "date": "2021-05-06T13:39:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulle guerre leonensi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-JCmFWJeM"
+    },
+    " Samuele Leone, 13 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 181,
+   "type": "message",
+   "date": "2021-05-06T13:39:35",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Iridia, stato morente?",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://telegra.ph/Iridia-stato-morente-10-16"
+    },
+    " Raffaele Ferraro, 16 ottobre 2019 - Izequierda [RFL]"
+   ]
+  },
+  {
+   "id": 182,
+   "type": "message",
+   "date": "2021-05-06T13:40:01",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Nuova costituzione, come cambierà la nostra repubblica? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADhwYAAneYYVEam_9EPlc_2RYE"
+    },
+    " Valerio Marocchi, 19 ottobre 2019 - RFL [Il Giornale Leonense]"
+   ]
+  },
+  {
+   "id": 183,
+   "type": "message",
+   "date": "2021-05-06T13:40:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Trecentocinquanta ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Trecentocinquanta-10-18"
+    },
+    " Cesare Orlando, 18 ottobre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 184,
+   "type": "message",
+   "date": "2021-05-06T13:40:33",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Minuendo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADqAcAAtU_cVH53Oc8wVhSihYE"
+    },
+    " Raffaele Ferraro, 21 ottobre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 185,
+   "type": "message",
+   "date": "2021-05-06T13:40:48",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Definizione di micronazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-svvDkqcb"
+    },
+    " Valerio Marocchi, 21 ottobre 2019 - RFL [Il Giornale Leonense]"
+   ]
+  },
+  {
+   "id": 186,
+   "type": "message",
+   "date": "2021-05-06T13:40:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Le stagioni del nostro amore ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Le-stagioni-del-nostro-amore-10-23"
+    },
+    " Giuseppe Verdi, 23 ottobre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 187,
+   "type": "message",
+   "date": "2021-05-06T13:41:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'avvocato ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/LAvvocato-10-28"
+    },
+    " Raffaele Ferraro, 28 ottobre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 188,
+   "type": "message",
+   "date": "2021-05-06T13:41:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sapiocrazia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADGgcAAmgl8VE9gwKuq-pA3BYE"
+    },
+    " Valerio Marocchi, 2 novembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 189,
+   "type": "message",
+   "date": "2021-05-06T13:41:44",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "O Patria ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://telegra.ph/O-Patria-11-04"
+    },
+    "Raffaele Ferraro, 4 novembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 190,
+   "type": "message",
+   "date": "2021-05-06T13:42:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La gatta ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-Gatta-11-06"
+    },
+    " Raffaele Ferraro, 6 novembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 191,
+   "type": "message",
+   "date": "2021-05-06T13:42:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La madre ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-Madre-11-19"
+    },
+    " Raffaele Ferraro, 19 novembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 192,
+   "type": "message",
+   "date": "2021-05-06T13:42:28",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Opere ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=do-BQADBAADBQgAAhElaFNGTyr4EL1_kBYE"
+    },
+    " Giuseppe Verdi, 8 dicembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 193,
+   "type": "message",
+   "date": "2021-05-06T13:42:40",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Nera come la morte ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=do-BQADBAADfQUAArXceFMQlO4_UwqljxYE"
+    },
+    " Giuseppe Verdi, 9 dicembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 194,
+   "type": "message",
+   "date": "2021-05-06T13:43:02",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "E se è vero ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/E-se-%C3%A8-vero-12-08"
+    },
+    " Raffaele Ferraro, 8 dicembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 195,
+   "type": "message",
+   "date": "2021-05-06T13:43:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "I cuori della Federazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-KtTlbu4P"
+    },
+    " Giovanni Zaccaria, 23 novembre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 196,
+   "type": "message",
+   "date": "2021-05-06T13:43:31",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Blum, il profeta nascosto nella storia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Blum-il-profeta-nascosto-nella-storia-11-18"
+    },
+    " Raffaele Ferraro, 4 dicembre 2019 - RFL [Izequierda]"
+   ]
+  },
+  {
+   "id": 197,
+   "type": "message",
+   "date": "2021-05-06T13:43:37",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La guerra civile leonense è finita, e da tempo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-T6aDXPfo"
+    },
+    " Cesare Orlando, 1 dicembre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 198,
+   "type": "message",
+   "date": "2021-05-06T13:44:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Minasi e Andreani, nuova frontiera ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-QO5C6Hm2"
+    },
+    " Raffaele Ferraro, 11 dicembre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 199,
+   "type": "message",
+   "date": "2021-05-06T13:44:25",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Natale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Natale-12-08"
+    },
+    " Giuseppe Verdi, 8 dicembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 200,
+   "type": "message",
+   "date": "2021-05-06T13:44:42",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Venite Adoremus ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Venite-Adoremus-12-12"
+    },
+    " Giuseppe Verdi, 12 dicembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 201,
+   "type": "message",
+   "date": "2021-05-06T13:44:56",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il punto di Andrea Minasi sulla sua esperienza nella Federazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-YmZs2cDE"
+    },
+    " Andrea Minasi, 11 dicembre 2019 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 202,
+   "type": "message",
+   "date": "2021-05-06T13:45:10",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Omnia munda mundis ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-4vhyRHXE"
+    },
+    " Vincenzo Iemma, 9 dicembre 2019 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 203,
+   "type": "message",
+   "date": "2021-05-06T13:45:23",
+   "edited": "2021-05-06T13:45:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Autarchia culturale: Minasi e Doria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-q198Xw4G"
+    },
+    " Raffaele Ferraro, 14 dicembre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 204,
+   "type": "message",
+   "date": "2021-05-06T13:45:39",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Nessun appeasement per i freelandisti ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-LDUJgsCE"
+    },
+    " Cesare Orlando, 23 novembre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 205,
+   "type": "message",
+   "date": "2021-05-06T13:45:55",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'arco parlamentare federato leonense ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=pb-aD4MPMQt"
+    },
+    " Cesare Orlando, 10 dicembre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 206,
+   "type": "message",
+   "date": "2021-05-06T13:46:09",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'aragonismo organizzato e indipendente ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://t.me/anonuploadbot?start=pb-yTCI94UV"
+    },
+    " Cesare Orlando, 11 dicembre 2019 - RFL [Il Regno]"
+   ]
+  },
+  {
+   "id": 207,
+   "type": "message",
+   "date": "2021-05-06T13:46:19",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Imbecille ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Imbecille-12-15"
+    },
+    " Raffaele Ferraro, 15 dicembre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 208,
+   "type": "message",
+   "date": "2021-05-06T13:46:47",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dove cerchi il sole ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Dove-cerchi-il-sole-04-09"
+    },
+    " Raffaele Ferraro, 9 aprile 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 209,
+   "type": "message",
+   "date": "2021-05-06T13:46:49",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Primo Dibattito Presidenziale degli Stati Uniti della Leonidia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Primo-Dibattito-Presidenziale-degli-Stati-Uniti-della-Leonidia-04-14"
+    },
+    " Raffaele Ferraro, 14 aprile 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 210,
+   "type": "message",
+   "date": "2021-05-06T13:47:20",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Perché corri ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Perch%C3%A8-corri-04-16"
+    },
+    " Raffaele Ferraro, 16 aprile 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 211,
+   "type": "message",
+   "date": "2021-05-06T13:47:51",
+   "edited": "2021-05-06T13:47:57",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La democrazia castaborense  ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://t.me/anonuploadbot?start=do-BQADBAAD0AUAAnwXKVLLjLTesf_3cgI"
+    },
+    " Cesare Orlando, 20 gennaio 2019 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 212,
+   "type": "message",
+   "date": "2021-05-06T13:47:52",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dal Vangelo secondo Canfora - il mistero di Rambaldi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Dal-vangelo-secondo-Canfora---il-mistero-di-Rambaldi-04-20"
+    },
+    " Massimiliano Erésia, 20 aprile 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 213,
+   "type": "message",
+   "date": "2021-05-06T13:48:18",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Storia Improbabile del Quintomondo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/sh/o56g95o34tbsaaq/AABJQJow_fLqQVqXvNykxsAxa?dl=0"
+    },
+    " Raffaele Ferraro, 14 aprile 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 214,
+   "type": "message",
+   "date": "2021-05-06T13:48:42",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La RFL ha vinto ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/fnc135cj4z280be/La%20RFL%20ha%20vinto.pdf?dl=0"
+    },
+    " Mario Castaldo, 20 aprile 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 215,
+   "type": "message",
+   "date": "2021-05-06T13:48:50",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Capitano sul mare di nebbia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/8why98jydvpzp03/Capitano%20sul%20mare%20di%20nebbia.pdf?dl=0"
+    },
+    " Giuseppe Verdi, 22 aprile 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 216,
+   "type": "message",
+   "date": "2021-05-06T13:49:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Scompiglio a Lumenaria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Ancora-scompiglio-a-Lumenaria-04-23"
+    },
+    " Salvatore Giordano, 23 aprile 2020 - Leonidia [La Rinascita]"
+   ]
+  },
+  {
+   "id": 217,
+   "type": "message",
+   "date": "2021-05-06T13:49:18",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Raffaele Ferraro ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Raffaele-Ferraro-04-25"
+    },
+    " Francesco Sozzi, 25 aprile 2020 - Leonidia [La Rinascita]"
+   ]
+  },
+  {
+   "id": 218,
+   "type": "message",
+   "date": "2021-05-06T13:49:50",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un nuovo inizio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Un-nuovo-inizio-04-26"
+    },
+    " Salvatore Giordano, 26 aprile 2020 - Leonidia [La Rinascita]"
+   ]
+  },
+  {
+   "id": 219,
+   "type": "message",
+   "date": "2021-05-06T13:50:02",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Nuova età dell'oro ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/azjkbotg8pi20q0/La_nuova_et%C3%A0_dell%27oro_Analisi_della_situazione_attuale_della_RFL.pdf?dl=0"
+    },
+    " Luigi Cristofaro, 17 aprile 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 220,
+   "type": "message",
+   "date": "2021-05-06T13:50:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Archivio Gazzetta Leonense ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/sh/lib3x59yq6a4v9z/AAArzCHExvFXxo99_ASOvTrsa?dl=0"
+    },
+    " Giovanni Zaccaria, 2018/2020 - RFL [Gazzetta Leonense]"
+   ]
+  },
+  {
+   "id": 221,
+   "type": "message",
+   "date": "2021-05-06T13:50:19",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La Protesta ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/i591rke08gdugvi/La%20Protesta.pdf?dl=0"
+    },
+    " Carlo Cesare Orlando, 2018 - Casraboro/Agepoli [La Protesta]"
+   ]
+  },
+  {
+   "id": 222,
+   "type": "message",
+   "date": "2021-05-06T13:50:38",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un mondo diverso ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/sh/2k947ifeolau9g0/AADjV4ZHksFt-j0k0uFrswdqa?dl=0"
+    },
+    " Davide Ferranzi, aprile 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 223,
+   "type": "message",
+   "date": "2021-05-06T13:50:43",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Le micronazioni italofone ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/odkfskumnt53jyz/LE%20MICRONAZIONI%20ITALOFONE.pdf?dl=0"
+    },
+    " Mario Vellone, 7 ottobre 2019 - Doria [Biblioteca Nazionale Doriana]"
+   ]
+  },
+  {
+   "id": 224,
+   "type": "message",
+   "date": "2021-05-06T13:51:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La cultura micronazionale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/jlxx12qca7i4304/LA%20CULTURA%20MICRONAZIONALE.pdf?dl=0"
+    },
+    " Mario Vellone, 8 ottobre 2019 - Doria [Biblioteca Nazionale Doriana]"
+   ]
+  },
+  {
+   "id": 225,
+   "type": "message",
+   "date": "2021-05-06T13:51:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'Aragonismo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/mp5jnbklc2lnnj4/L%27Aragonismo.pdf?dl=0"
+    },
+    " Mario Vellone, 8 ottobre 2019 - Doria [Biblioteca Nazionale Doriana]"
+   ]
+  },
+  {
+   "id": 226,
+   "type": "message",
+   "date": "2021-05-06T13:51:34",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Prima costituzione del Regno di Ghelda ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/hzq9uj3jgn6xwjh/Costituzione%20di%20Ghelda.pdf?dl=0"
+    },
+    " Mario Vellone, 21 agosto 2018 - Ghelda [Gazzetta di Ghelda]"
+   ]
+  },
+  {
+   "id": 227,
+   "type": "message",
+   "date": "2021-05-06T13:51:43",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Se questo è agire ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/y7jnleff4hjtvd6/Se%20questo%20%C3%A8%20agire.pdf?dl=0"
+    },
+    " Andrea Minasi, 15 marzo 2020 - Zafiria [Biblioteca Zafiriana Doriana]"
+   ]
+  },
+  {
+   "id": 228,
+   "type": "message",
+   "date": "2021-05-06T13:52:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La nostra storia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/dskydp48m8sgtor/La%20Nostra%20Storia%2C%20da%20Malassia%20a%20Doria%20.pdf?dl=0"
+    },
+    " Mario Vellone, 15 marzo 2020 - Zafiria [Biblioteca Zafiriana Doriana]"
+   ]
+  },
+  {
+   "id": 229,
+   "type": "message",
+   "date": "2021-05-06T13:52:05",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "C'era un giovane ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/xiyjao758rbozdm/C%27era%20Un%20Giovane.pdf?dl=0"
+    },
+    " Mario Vellone, 18 marzo 2019 - Zafiria [Biblioteca Zafiriana Doriana]"
+   ]
+  },
+  {
+   "id": 230,
+   "type": "message",
+   "date": "2021-05-06T13:52:27",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Breve storia di Mario Vellone ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/pczyenpvqnxb2mk/Breve%20storia%20di%20Mario%20Vellone.pdf?dl=0"
+    },
+    " Anonimo, 15 aprile 2019 - RFL [Osservatorio Federale]"
+   ]
+  },
+  {
+   "id": 231,
+   "type": "message",
+   "date": "2021-05-06T13:52:30",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Due lezioni di economia intermicronazionale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/9rt93nsbwldppvp/Due%20lezioni%20di%20economia%20intermicronazionale.pdf?dl=0"
+    },
+    " Raffaele Ferraro, 17 ottobre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 232,
+   "type": "message",
+   "date": "2021-05-06T13:53:01",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Storia Leonense, volume primo - Storia della Repubblica di Leonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/de1s3yksjys1zt6/Storia%20Leonense%20-%20Volume%201.pdf?dl=0"
+    },
+    " Cesare Orlando, 9 ottobre 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 233,
+   "type": "message",
+   "date": "2021-05-06T13:53:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'economia quintomondista ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/xq2zyyro0ft0abb/L%27economia%20quintomondista.pdf?dl=0"
+    },
+    " Giovanni Zaccaria, 1 maggio 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 234,
+   "type": "message",
+   "date": "2021-05-06T13:53:28",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Analisi dei quotidiani leonensi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Analisi-quotidiani-leonensi-giugno-2017-06-02"
+    },
+    " Carlo Cesare Orlando, 2 giugno 2017 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 235,
+   "type": "message",
+   "date": "2021-05-06T13:53:34",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sul Liceo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/75uo4f69bcowtbt/Sul%20Liceo.pdf?dl=0"
+    },
+    " Giovanni Zaccaria, 8 novembre 2019 - RFL [Concilium Culturae]"
+   ]
+  },
+  {
+   "id": 236,
+   "type": "message",
+   "date": "2021-05-06T13:54:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'estrema sinistra nello stesso partito dell'estrema destra ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lestrema-sinistra-nello-stesso-partito-dellestrema-destra-mal-comune-mezzo-gaudio-08-17"
+    },
+    " Vincenzo Iemma, 17 agosto 2017 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 237,
+   "type": "message",
+   "date": "2021-05-06T13:54:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Obiettivo 100 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Obiettivo100-cos%C3%A8-come-funziona-12-06"
+    },
+    " Davide Leone, 6 dicembre 2016 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 238,
+   "type": "message",
+   "date": "2021-05-06T13:54:31",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Simone Spinelli ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Simone-Spinelli-05-02"
+    },
+    " Giovanni Zaccaria, 2 maggio 2020 - RFL [Gazzetta Leonense]"
+   ]
+  },
+  {
+   "id": 239,
+   "type": "message",
+   "date": "2021-05-06T13:54:51",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Discorso di Carlo Cesare Orlando a Vitla sulla RFL ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/ykygcmis5dz585g/Discorso%20di%20Cesare%20Orlando%20a%20Vitla%20sulla%20RFL%20%281%29.pdf?dl=0"
+    },
+    " Cesare Orlando, 9 gennaio 2019, 13 febbraio 2019 - Vitla [Collegio dei Probi Viri]"
+   ]
+  },
+  {
+   "id": 240,
+   "type": "message",
+   "date": "2021-05-06T13:54:53",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La Storia Alternativa - Zafiria (Parte 1) ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/5rftxphzigbl7tf/La%20Storia%20Alternativa%20-%20Zafiria%20%28Parte%201%29.pdf?dl=0"
+    },
+    " Mario Vellone, 2 maggio 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 241,
+   "type": "message",
+   "date": "2021-05-06T13:55:05",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": "Storia di Lumenaria ⏺ Filippo Zanardi, 2 maggio 2020 - Lumenaria [Biblioteca Lumenarense]"
+  },
+  {
+   "id": 242,
+   "type": "message",
+   "date": "2021-05-06T13:55:16",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Morte o nuova frontiera ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Morte-o-nuova-frontiera-05-01"
+    },
+    " Giuseppe Verdi, 2 maggio 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 243,
+   "type": "message",
+   "date": "2021-05-06T13:55:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dictator Marocchi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Dictator-Marocchi-05-02"
+    },
+    " Salvatore Giordano, 3 maggio 2020 - Leonidia [La Rinascita]"
+   ]
+  },
+  {
+   "id": 244,
+   "type": "message",
+   "date": "2021-05-06T13:55:49",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sull'OIDMA ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/SullOIDMA-10-14"
+    },
+    " Giuseppe Verdi, 14 ottobre 2018 - Agepoli [Leonardo]"
+   ]
+  },
+  {
+   "id": 245,
+   "type": "message",
+   "date": "2021-05-06T13:56:01",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'unione fa la forza ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/LUnione-fa-la-forza-10-16"
+    },
+    " Gabriel Hearot, 16 ottobre 2018 - Agepoli [Leonardo]"
+   ]
+  },
+  {
+   "id": 246,
+   "type": "message",
+   "date": "2021-05-06T13:56:10",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Micronazioni, GDR o realtà culturale? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Micronazioni-GDR-o-realt%C3%A0-culturale-10-26-2"
+    },
+    " Stefano Martina, 26 ottobre 2018 - Agepoli [Leonardo]"
+   ]
+  },
+  {
+   "id": 247,
+   "type": "message",
+   "date": "2021-05-06T13:56:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Eutopia - Sulla Federazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/ahegu5md8gvsniw/Eutopia.pdf?dl=0"
+    },
+    " Davide Leone, 14 Ottobre 2018 - Agepoli [Leonardo]"
+   ]
+  },
+  {
+   "id": 248,
+   "type": "message",
+   "date": "2021-05-06T13:56:35",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Ghelda Nazionalista? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Ghelda-nazionalista-05-03"
+    },
+    " Simone Palladino, 3 maggio 2020 - Leonidia [La Rinascita]"
+   ]
+  },
+  {
+   "id": 249,
+   "type": "message",
+   "date": "2021-05-06T13:56:58",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Storia Leonense, volume secondo - Storia del Regno di Aragonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/s2nmv1c9vgpx9f2/Storia%20Leonense%20-%20Volume%202.pdf?dl=0"
+    },
+    " Cesare Orlando, 4 maggio 2020 - RFL [Il Micronazionale]"
+   ]
+  },
+  {
+   "id": 250,
+   "type": "message",
+   "date": "2021-05-06T13:57:00",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Ghelda e la legge 3 maggio 2020 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/4d0blrmlr7nnrlr/Ghelda%20e%20la%20legge%203%20maggio%202020.pdf?dl=0"
+    },
+    " Cesare Orlando, 4 maggio 2020 - RFL [Il Micronazionale]"
+   ]
+  },
+  {
+   "id": 251,
+   "type": "message",
+   "date": "2021-05-06T13:57:43",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Forse è meglio così ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Forse-%C3%A8-meglio-cos%C3%AC-05-03"
+    },
+    " Raffaele Ferraro, 3 maggio 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 252,
+   "type": "message",
+   "date": "2021-05-06T13:57:47",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La campagna 16 aprile ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/cgjvue66flu9jqu/La%20campagna%2016%20aprile.pdf?dl=0"
+    },
+    " (Edito da Giovanni Zaccaria), 4 maggio 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 254,
+   "type": "message",
+   "date": "2021-05-06T13:58:24",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Capolinea Estate ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/wpblkh2sakzjziw/Capolinea%20Estate.pdf?dl=0"
+    },
+    " Marco Pulgaro, 30 marzo 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 255,
+   "type": "message",
+   "date": "2021-05-06T13:58:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Nove ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/qs816mofj38l7jj/Nove.pdf?dl=0"
+    },
+    " Marco Pulgaro, 31 marzo 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 256,
+   "type": "message",
+   "date": "2021-05-06T13:58:48",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'uomo uscito dal bosco ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/ry0or5gj1246iew/L%27Uomo%20uscito%20dal%20bosco.pdf?dl=0"
+    },
+    " Marco Pulgaro, 1 aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 258,
+   "type": "message",
+   "date": "2021-05-06T13:59:14",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il Gigante ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://www.dropbox.com/s/vvh08aqvf565m10/Il%20Gigante%20.pdf?dl=0"
+    },
+    "Marco Pulgaro, 2 aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 259,
+   "type": "message",
+   "date": "2021-05-06T13:59:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lo zero risponde ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/3y5jb8zqoyn3848/Lo%20zero%20risponde.pdf?dl=0"
+    },
+    " Marco Pulgaro, 4 aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 260,
+   "type": "message",
+   "date": "2021-05-06T13:59:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Ascesa ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/azhw4mnzytrm39d/Ascesa.pdf?dl=0"
+    },
+    " Marco Pulgaro, 8 aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 261,
+   "type": "message",
+   "date": "2021-05-06T13:59:46",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Ricordo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/6tnfpnonh7lizyr/Ricordo.pdf?dl=0"
+    },
+    " Carlo Ambrosini, 9 aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 262,
+   "type": "message",
+   "date": "2021-05-06T14:00:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Riflessione su Zafiria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/9m4aimsyu6mu0v6/Riflessione%20su%20Zafiria.pdf?dl=0"
+    },
+    " Carlo Ambrosini, 9 aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 263,
+   "type": "message",
+   "date": "2021-05-06T14:00:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Poesie ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/sh/ejimqhljltmk0ry/AAD1akvU8pyzEefyid5sofQJa?dl=0"
+    },
+    " Marco Pulgaro, aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 264,
+   "type": "message",
+   "date": "2021-05-06T14:00:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Appello del Presidente Pulgaro alla nazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/wom1jvekir8vtm6/Appello%20del%20Presidente%20Pulgaro%20alla%20nazione%20.pdf?dl=0"
+    },
+    " Marco Pulgaro, 23 aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 265,
+   "type": "message",
+   "date": "2021-05-06T14:00:37",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Mano nella mano ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/ilqf0fnxk7pf8qp/Mano%20nella%20Mano.pdf?dl=0"
+    },
+    " Carlo Ambrosini, 23 aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 266,
+   "type": "message",
+   "date": "2021-05-06T14:00:53",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il filo della libertà ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/zbi0ju8sf6fzf0n/Il%20Filo%20della%20Libert%C3%A0.pdf?dl=0"
+    },
+    " Francesco Russo, 14 aprile 2020 - Romenzia [Biblioteca Nazionale Romenziana]"
+   ]
+  },
+  {
+   "id": 267,
+   "type": "message",
+   "date": "2021-05-06T14:00:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulle ideologie leonensi ",
+    {
+     "type": "text_link",
+     "text": "✳️",
+     "href": "https://www.dropbox.com/s/2skg7xjjr10leu0/Sulle%20ideologie%20leonensi.pdf?dl=0"
+    },
+    " Giovanni Zaccaria, 27 gennaio 2019 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 268,
+   "type": "message",
+   "date": "2021-05-06T14:01:16",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Raccolta dicembre 2016 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Corriere-Leonense---Pubblicazioni-Dicembre-2016-01-15"
+    },
+    " Cesare Orlando, 15 gennaio 2017 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 269,
+   "type": "message",
+   "date": "2021-05-06T14:01:25",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Tutti i piani del Governo Leone ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Tutti-i-piani-del-Governo-Leone-12-10"
+    },
+    " Cesare Orlando, 10 dicembre 2016 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 270,
+   "type": "message",
+   "date": "2021-05-06T14:01:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Referendum sul Governo di Freeland ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Referendum-sul-Governo-di-Freeland-12-13"
+    },
+    " Cesare Orlando, 13 dicembre 2016 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 271,
+   "type": "message",
+   "date": "2021-05-06T14:01:50",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Leonia ai massimi livelli ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Leonia-ai-massimi-livelli-12-26"
+    },
+    " Vincenzo Iemma, 26 dicembre 2016 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 272,
+   "type": "message",
+   "date": "2021-05-06T14:02:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Rivoluzione in Freeland ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/30-dicembre-Rivoluzione-in-Freeland-12-31"
+    },
+    " Cesare Orlando, 31 dicembre 2016 - Leonia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 273,
+   "type": "message",
+   "date": "2021-05-06T14:02:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Ghelda: nemica della federazione? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Ghelda-nemica-della-Federazione-05-04"
+    },
+    " Francesco Sozzi, 4 maggio 2020 - Leonidia [Corriere Leonense]"
+   ]
+  },
+  {
+   "id": 274,
+   "type": "message",
+   "date": "2021-05-06T14:02:28",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Ahaha sceneggiato goes prrrrr",
+    {
+     "type": "text_link",
+     "text": " ⏺ ",
+     "href": "https://telegra.ph/NOOO-NON-PUOI-SCRIVERE-LA-SCENEGGIATURA-PER-UN-FILM-CHE-PARLA-DELLA-SPLENDIDA-AMICIZIA-TRA-TE-E-DAVIDE-LEONE-E-DI-QUANTO-SIA-INC-05-11"
+    },
+    "Raffaele Ferraro, 11 maggio 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 275,
+   "type": "message",
+   "date": "2021-05-06T14:02:40",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La grande guerra",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://www.dropbox.com/s/lhoyc63oycuwwc9/La%20grande%20guerra.pdf?dl=0"
+    },
+    " Giovanni Zaccaria, 6 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 276,
+   "type": "message",
+   "date": "2021-05-06T14:02:49",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Plutarco ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/b52b0wohovetns1/Plutarco.pdf?dl=0"
+    },
+    " Raffaele Ferraro, 5 Gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 277,
+   "type": "message",
+   "date": "2021-05-06T14:03:10",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un amore difficile ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/pbjioe2s993rhde/Un%20amore%20difficile.pdf?dl=0"
+    },
+    " Giovanni Zaccaria, 2 gennaio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 278,
+   "type": "message",
+   "date": "2021-05-06T14:03:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Costituzione della Repubblica di Romenzia",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://www.dropbox.com/s/qazaecqscannb88/Costituzione%20della%20Repubblica%20di%20Romenzia.pdf?dl=0"
+    },
+    " Costituente Romenziana, 13 aprile 2020 - Romenzia [Gazzetta Romenziana]"
+   ]
+  },
+  {
+   "id": 279,
+   "type": "message",
+   "date": "2021-05-06T14:03:35",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Manifesto degli intellettuali silensi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/1mqq62g3ginha2b/Manifesto%20degli%20Intellettuali%20Silensi.pdf?dl=0"
+    },
+    " Giacomo Morini, 23 maggio 2020 - Silonia [Gazzetta di Silonia]"
+   ]
+  },
+  {
+   "id": 280,
+   "type": "message",
+   "date": "2021-05-06T14:03:39",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Tibli e Matus ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Tibli-e-Matus-05-31"
+    },
+    " Giovanni Zaccaria, 31 maggio 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 281,
+   "type": "message",
+   "date": "2021-05-06T14:04:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Poesie",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://www.dropbox.com/s/1o31agadruwq23g/Poesie.pdf?dl=0"
+    },
+    " Simone Salvadori, febbraio/maggio 2020 - Lumenaria [Biblioteca Lumenarense]"
+   ]
+  },
+  {
+   "id": 282,
+   "type": "message",
+   "date": "2021-05-06T14:04:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Tramutata nel tramonto ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Tramutata-nel-tramonto-05-27"
+    },
+    " Simone Acquasanta, 27 maggio 2020 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 283,
+   "type": "message",
+   "date": "2021-05-06T14:04:27",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Perché Silonia funziona ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Perch%C3%A9-Silonia-funziona-05-29"
+    },
+    " Andrea Minasi, 29 maggio 2020 - Silonia [Biblioteca Silense]"
+   ]
+  },
+  {
+   "id": 284,
+   "type": "message",
+   "date": "2021-05-06T14:04:30",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Avanti Silonia! ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/AVANTI-SILONIA-06-02"
+    },
+    " Andrea Minasi, 2 giugno 2020 - Silonia [Biblioteca Silense]"
+   ]
+  },
+  {
+   "id": 285,
+   "type": "message",
+   "date": "2021-05-06T14:04:51",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Apologia di Silonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/5yvudqfiaocq9z5/Apologia%20di%20Silonia.pdf?dl=0"
+    },
+    " Giacomo Bologna, 2 giugno 2020 - Silonia [Aura Editore]"
+   ]
+  },
+  {
+   "id": 287,
+   "type": "message",
+   "date": "2021-05-06T14:05:23",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lumenaria: ancora nella bufera ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lumenaria-Ancora-nella-bufera-05-16"
+    },
+    " Salvatore Giordano, 16 maggio 2020 - RFL [La Rinascita]"
+   ]
+  },
+  {
+   "id": 288,
+   "type": "message",
+   "date": "2021-05-06T14:05:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Simone Acquasanta ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Simone-Acquasanta-05-29"
+    },
+    " Simone Spinelli, 29 maggio 2020 - RFL [La Rinascita]"
+   ]
+  },
+  {
+   "id": 289,
+   "type": "message",
+   "date": "2021-05-06T14:05:49",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Romenzia: cade il governo Albino ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Ultimora-Cade-il-Governo-Albino-06-02"
+    },
+    " Salvatore Giordano, 2 maggio 2020 - RFL [La Rinascita]"
+   ]
+  },
+  {
+   "id": 290,
+   "type": "message",
+   "date": "2021-05-06T14:06:37",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lo storytelling di una spia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lo-storytelling-di-una-spia-06-22"
+    },
+    " Salvatore Giordano, 23 giugno 2020 - Lumenaria [Biblioteca Lumenarense]"
+   ]
+  },
+  {
+   "id": 291,
+   "type": "message",
+   "date": "2021-05-06T15:52:09",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L'autarchia silense funziona davvero? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lautarchia-Silense-funziona-davvero-06-23"
+    },
+    " Francesco Sozzi, 23 giugno 2020 - RFL [La Rinascita]"
+   ]
+  },
+  {
+   "id": 292,
+   "type": "message",
+   "date": "2021-05-06T15:52:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un periodo buio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Un-periodo-buio-07-19"
+    },
+    " Filippo Zanardi, 21 luglio 2020 - Lumenaria [Radio Lumenarense]"
+   ]
+  },
+  {
+   "id": 293,
+   "type": "message",
+   "date": "2021-05-06T15:53:01",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La seconda fredda estate ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-seconda-fredda-estate-07-21"
+    },
+    " Luigi Cristofaro, 21 luglio 2019 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 294,
+   "type": "message",
+   "date": "2021-05-06T15:53:25",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulla cultura Lumenarense ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sulla-Cultura-Lumenarense-07-15"
+    },
+    " Filippo Zanardi, 24 luglio 2020 - Lumenaria [Biblioteca Lumenarense]"
+   ]
+  },
+  {
+   "id": 295,
+   "type": "message",
+   "date": "2021-05-06T15:53:55",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Costituzione di Aragonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/tiicbifbeemq4vj/Costituzione%20di%20Aragonia.pdf?dl=0"
+    },
+    " Davide Rambaldi, 1 settembre 2017 - Aragonia [Gazzetta di Aragonia]"
+   ]
+  },
+  {
+   "id": 296,
+   "type": "message",
+   "date": "2021-05-06T15:54:20",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Passata la Maxi-Riforma ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Passata-la-maxi-Riforma-col-60-dei-voti-discorso-del-Presidente-12-05"
+    },
+    " Cesare Orlando, 5 dicembre 2016 - Leonia [Gazzetta di Stato]"
+   ]
+  },
+  {
+   "id": 297,
+   "type": "message",
+   "date": "2021-05-06T15:54:40",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Maxi-Riforma ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/fp7l1nz2hzo8dxf/Maxi-Riforma.pdf?dl=0"
+    },
+    " Cesare Orlando, 5 dicembre 2016 - Leonia [Gazzetta di Stato]"
+   ]
+  },
+  {
+   "id": 298,
+   "type": "message",
+   "date": "2021-05-06T15:55:08",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Panarchismo e Vincenzo Iemma ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/dihj2usn577e7bc/Panarchismo%20e%20Vincenzo%20Iemma.pdf?dl=0"
+    },
+    " Cesare Orlando, 18-19 dicembre 2018 - RFL [Micronazionale +]"
+   ]
+  },
+  {
+   "id": 299,
+   "type": "message",
+   "date": "2021-05-06T15:55:36",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Augepota, numero 1 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/kg8pmy1n30az5cy/Augepota%2C%20numero%201.pdf?dl=0"
+    },
+    " Vincenzo Iemma, 1 aprile 2018 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 300,
+   "type": "message",
+   "date": "2021-05-06T15:56:09",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Augepota, numero 2 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/anvwc0zypvhfv8y/Augepota%2C%20numero%202.pdf?dl=0"
+    },
+    " Vincenzo Iemma, 2 aprile 2018 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 301,
+   "type": "message",
+   "date": "2021-05-06T15:56:35",
+   "edited": "2021-05-06T15:56:55",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Augepota, numero 3 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/xdwxs8d2lu8z1mz/Augepota%2C%20numero%203.pdf?dl=0"
+    },
+    " Vincenzo Iemma, 12 maggio 2018 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 302,
+   "type": "message",
+   "date": "2021-05-06T15:57:27",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Introduzione sul diritto ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/i08w86jn9a1ej8m/Introduzione%20sul%20diritto.pdf?dl=0"
+    },
+    " Vincenzo Iemma, 22 febbraio 2018 - Castaboro [Università Statale]"
+   ]
+  },
+  {
+   "id": 303,
+   "type": "message",
+   "date": "2021-05-06T15:57:57",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Gerarchia delle fonti ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/5kflfxh8rn1bd2e/Gerarchia%20delle%20fonti.pdf?dl=0"
+    },
+    " Vincenzo Iemma, 22 febbraio 2018 - Castaboro [Università Statale]"
+   ]
+  },
+  {
+   "id": 304,
+   "type": "message",
+   "date": "2021-05-06T15:58:21",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Costituzione della Repubblica di Castaboro commentata",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://www.dropbox.com/s/opj7h9h9x5n3j98/Costituzione%20della%20Repubblica%20di%20Castaboro%20%28Commentata%29.pdf?dl=0"
+    },
+    " Vincenzo Iemma, 4 marzo 2020 - Castaboro [Università Statale]"
+   ]
+  },
+  {
+   "id": 305,
+   "type": "message",
+   "date": "2021-05-06T15:58:49",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il diritto all'uguaglianza ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/qsqqercorw5s8os/Il%20Diritto%20all%27uguaglianza.pdf?dl=0"
+    },
+    " Vincenzo Iemma, 1 settembre 2020 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 306,
+   "type": "message",
+   "date": "2021-05-06T15:59:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Preambolo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://www.dropbox.com/s/xwf218utesc77ow/Preambolo.pdf?dl=0"
+    },
+    " Vincenzo Iemma, 17 novembre 2020 - Castaboro [Augepota]"
+   ]
+  },
+  {
+   "id": 307,
+   "type": "message",
+   "date": "2021-05-06T15:59:41",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Una pezza di Ferraro ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Una-Pezza-di-Ferraro-Con-Ezio-Greggio-01-18"
+    },
+    " Raffaele Ferraro, 18 gennaio 2021 - RFL [Accademia]"
+   ]
+  },
+  {
+   "id": 311,
+   "type": "message",
+   "date": "2021-05-12T20:22:30",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "4 Novembre ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/4-Novembre-05-12-2"
+    },
+    " Giuseppe Verdi, 12 maggio 2021 - RAL [Piazza 15 Agosto]"
+   ]
+  },
+  {
+   "id": 313,
+   "type": "message",
+   "date": "2021-05-14T16:59:34",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Italia 1995 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Italia-1995-05-14"
+    },
+    " Giuseppe Verdi, 14 Maggio 2021 - RAL [Piazza 15 Agosto]"
+   ]
+  },
+  {
+   "id": 314,
+   "type": "message",
+   "date": "2021-05-15T10:28:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Italia 1995, Ep. 2 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Italia-1995-05-14-2"
+    },
+    " Giuseppe Verdi, 14 Maggio 2021 - RAL [Piazza 15 Agosto]"
+   ]
+  },
+  {
+   "id": 315,
+   "type": "message",
+   "date": "2021-05-16T14:52:33",
+   "edited": "2021-06-05T17:20:39",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dal processo Canfora al fallimento del modello di tripartizone montesquieiano dei poteri applicato alle micronazioni, 16 Maggio 2021",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Dal-processo-Canfora-al-fallimento-del-modello-di-tripartizone-montesquieiano-dei-poteri-applicato-alle-micronazioni-05-16"
+    },
+    " Giovanni Zaccaria - ",
+    {
+     "type": "italic",
+     "text": "Leonidia"
+    },
+    " [Istituto Privato Zaccaria]"
+   ]
+  },
+  {
+   "id": 316,
+   "type": "message",
+   "date": "2021-06-05T17:15:54",
+   "edited": "2021-06-05T17:21:04",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Manifesto del Movimento Lumenarista, 3 Giugno 2021 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Manifesto-del-Movimento-Lumenarista-06-03"
+    },
+    " Movimento Lumenarista - Lumenaria [Movimento Lumenarista]"
+   ]
+  },
+  {
+   "id": 317,
+   "type": "message",
+   "date": "2021-06-05T17:18:33",
+   "edited": "2021-06-10T11:04:56",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il Movimento Lumenarista ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-Movimento-Lumenarista-06-05"
+    },
+    " Salvatore Giordano, 5 Giugno 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 318,
+   "type": "message",
+   "date": "2021-06-10T11:06:57",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Democrazia Diretta o Democrazia Rappresentativa? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Democrazia-rappresentativa-o-Democrazia-diretta-06-10"
+    },
+    " Filippo Zanardi, 10 Giugno 2021 - Lumenaria [Radio Lumenaria]"
+   ]
+  },
+  {
+   "id": 319,
+   "type": "message",
+   "date": "2021-06-25T20:29:57",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Facciamo Chiarezza ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Facciamo-Chiarezza-06-07"
+    },
+    " Salvatore Giordano, 25 Giugno 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 320,
+   "type": "message",
+   "date": "2021-06-25T20:31:17",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Le Ideologie Leonensi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Le-Ideologie-Leonensi-06-25"
+    },
+    " Filippo Zanardi, 25 Giugno 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 323,
+   "type": "message",
+   "date": "2021-07-10T19:14:00",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Cosa è andato storto tra Lumenaria, Silonia e Luxe? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Cosa-%C3%A9-andato-storto-tra-Lumenaria-Silonia-e-Luxe-05-23"
+    },
+    " Filippo Zanardi, 23 Maggio 2020 - Lumenaria [Piazza IV Febbraio]"
+   ]
+  },
+  {
+   "id": 324,
+   "type": "message",
+   "date": "2021-07-10T19:15:47",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Progetto Apollo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Progetto-Apollo-06-17"
+    },
+    " Filippo Zanardi, 18 Giugno 2020 - Lumenaria [Radio Lumenaria]"
+   ]
+  },
+  {
+   "id": 325,
+   "type": "message",
+   "date": "2021-07-10T19:18:27",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il nostro sigillo nell’occhio destro ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/I-principi---Il-nostro-sigillo-nellocchio-destro-07-25"
+    },
+    " Nicola Zefferino, 28 Luglio 2020 - Lumenaria [Piazza IV Febbraio]"
+   ]
+  },
+  {
+   "id": 326,
+   "type": "message",
+   "date": "2021-07-10T19:20:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Risposta a “I Principi - Il nostro sigillo nell’occhio destro” ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Risposta-a-I-Principi---Il-Nostro-Sigillo-nellOcchio-Destro-07-29"
+    },
+    " Raffaele Ferraro, 29 Luglio 2020 - RFL [The Daily]"
+   ]
+  },
+  {
+   "id": 327,
+   "type": "message",
+   "date": "2021-07-10T19:21:55",
+   "edited": "2021-07-10T19:22:43",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Temporale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Temporale-07-24"
+    },
+    " Filippo Zanardi, 4 Agosto 2020 - Lumenaria [Piazza IV Febbraio]"
+   ]
+  },
+  {
+   "id": 328,
+   "type": "message",
+   "date": "2021-07-10T19:23:51",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lumenaria Quintomondista? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lumenaria-nuova-frontiera-quintomondista-08-31"
+    },
+    " Filippo Zanardi, 1 Settembre 2020 - Lumenaria [Radio Lumenaria]"
+   ]
+  },
+  {
+   "id": 329,
+   "type": "message",
+   "date": "2021-07-10T19:25:11",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Rinascimento Micronazionale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Et%C3%A0-della-rinascita-09-01"
+    },
+    " Filippo Zanardi, 2 Settembre 2020 - Lumenaria [Radio Lumenaria]"
+   ]
+  },
+  {
+   "id": 330,
+   "type": "message",
+   "date": "2021-07-10T19:27:14",
+   "edited": "2021-07-10T19:30:27",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Filippo Zanardi, Presidente uscente della Repubblica di Lumenaria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Filippo-Zanardi-Presidente-uscente-di-Lumenaria-09-02"
+    },
+    " Vincenzo Iemma, 2 Settembre 2020 - Castaboro [L’Augepota]"
+   ]
+  },
+  {
+   "id": 331,
+   "type": "message",
+   "date": "2021-07-10T19:28:34",
+   "edited": "2021-07-10T19:30:36",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista al candidato Presidente della Repubblica Vittorio Canovi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lumenaria-intervista-al-candidato-Vittorio-Canovi-09-03"
+    },
+    " Vincenzo Iemma, 3 Settembre 2020 - Castaboro [L’Augepota]"
+   ]
+  },
+  {
+   "id": 332,
+   "type": "message",
+   "date": "2021-07-10T19:30:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il declino delle Micronazioni ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-declino-delle-micronazioni-09-28"
+    },
+    " Filippo Zanardi, 28 Settembre 2020 - Lumenaria [Radio Lumenaria]"
+   ]
+  },
+  {
+   "id": 333,
+   "type": "message",
+   "date": "2021-07-10T19:32:42",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista al Presidente del Consiglio di Lumenaria Salvatore Giordano ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-al-Presidente-del-Consiglio-Salvatore-Giordano-12-31"
+    },
+    " Simone Acquasanta, 31 Dicembre 2020 - RFL [Il Microfono]"
+   ]
+  },
+  {
+   "id": 334,
+   "type": "message",
+   "date": "2021-07-10T19:33:57",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Salvatore Giordano ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Salvatore-Giordano-12-31"
+    },
+    " Francesco Gianfranco, 31 Dicembre 2020 - Lumenaria [Lumenaria Podcast]"
+   ]
+  },
+  {
+   "id": 335,
+   "type": "message",
+   "date": "2021-07-10T19:34:44",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Filippo Zanardi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Filippo-Zanardi-12-31"
+    },
+    " Francesco Gianfranco, 31 Dicembre 2020 - Lumenaria [Lumenaria Podcast]"
+   ]
+  },
+  {
+   "id": 336,
+   "type": "message",
+   "date": "2021-07-10T19:36:10",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista all’On. Salvatore Giordano ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/INTERVISTA-ALLON-SALVATORE-GIORDANO-01-12"
+    },
+    " Gianmarco Rubino, 22 Gennaio 2021 - Lumenaria [Polis]"
+   ]
+  },
+  {
+   "id": 337,
+   "type": "message",
+   "date": "2021-07-10T19:37:14",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Stemmi dei Governi della Repubblica di Lumenaria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Stemmi-dei-Governi-della-Repubblica-di-Lumenaria-07-01"
+    },
+    " Filippo Zanardi, 22 Gennaio 2021 - Lumenaria [Piazza IV Febbraio]"
+   ]
+  },
+  {
+   "id": 338,
+   "type": "message",
+   "date": "2021-07-10T19:38:23",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Micronazione Virtuale, Cos’è? Come funziona? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Micronazione-virtuale-che-cosè-Come-funziona-12-29"
+    },
+    " Filippo Zanardi, 22 Gennaio 2021 - Lumenaria [Piazza IV Febbraio]"
+   ]
+  },
+  {
+   "id": 339,
+   "type": "message",
+   "date": "2021-07-10T19:39:50",
+   "edited": "2021-07-10T19:46:31",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lumenariagate ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lumenariagate---La-Rinascita-04-16"
+    },
+    " Simone Spinelli, 17 Aprile 2020 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 340,
+   "type": "message",
+   "date": "2021-07-10T19:40:31",
+   "edited": "2021-07-10T19:45:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La Storia di Zafiria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-storia-di-Zafiria---La-Rinascita-04-17"
+    },
+    " Salvatore Giordano, 17 Aprile 2020 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 341,
+   "type": "message",
+   "date": "2021-07-10T19:41:35",
+   "edited": "2021-07-10T19:45:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lettera agli ascoltatori - Lumenaria? Ci sei? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lumenaria-Ci-sei-04-20"
+    },
+    " Simone Spinelli, 20 Aprile 2020 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 342,
+   "type": "message",
+   "date": "2021-07-10T19:42:19",
+   "edited": "2021-07-10T19:44:41",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Scompiglio a Lumenaria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Ancora-scompiglio-a-Lumenaria-04-23"
+    },
+    " Salvatore Giordano, 23 Aprile 2020 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 343,
+   "type": "message",
+   "date": "2021-07-10T19:43:01",
+   "edited": "2021-07-10T19:43:52",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un nuovo inizio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Un-nuovo-inizio-04-26"
+    },
+    " Salvatore Giordano, 26 Aprile 2020 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 344,
+   "type": "message",
+   "date": "2021-07-10T19:43:44",
+   "edited": "2021-07-10T19:44:22",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Non ci siamo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Non-ci-siamo-04-30"
+    },
+    " Salvatore Giordano, 30 Aprile 2020 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 345,
+   "type": "message",
+   "date": "2021-07-10T19:45:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Dictator Marocchi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Dictator-Marocchi-05-02"
+    },
+    " Salvatore Giordano, 3 Maggio 2020 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 346,
+   "type": "message",
+   "date": "2021-07-10T19:46:38",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il Regime Silonia ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Markinov-conquista-le-micronazioni-05-23"
+    },
+    " Salvatore Giordano, 23 Maggio 2020 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 347,
+   "type": "message",
+   "date": "2021-07-10T19:48:33",
+   "edited": "2021-07-10T19:49:51",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Discussione sulla Mozione di Sfiducia al Governo Giordano III ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Discussione-sulla-mozione-di-sfiducia-al-Governo-Giordano-III-Senato-di-Lumenaria-18-Novembre-2020-11-18"
+    },
+    " Senatori di Lumenaria, 18 Novembre 2020 - Lumenaria [Radio Lumenaria, Archivi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 348,
+   "type": "message",
+   "date": "2021-07-10T19:49:38",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulla Regione Zafiria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sulla-Regione-Zafiria-11-15"
+    },
+    " Filippo Zanardi,  16 Novembre 2020 - Lumenaria [Senato della Repubblica]"
+   ]
+  },
+  {
+   "id": 349,
+   "type": "message",
+   "date": "2021-07-10T19:51:15",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Discorso del Presidente del Consiglio dei Ministri del giorno 17/11/2020 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Discorso-del-Presidente-del-Consiglio-dei-Ministri-della-Repubblica-di-Lumenaria-17-Novembre-2020-11-19"
+    },
+    " Salvatore Giordano, 17 Novembre 2020 - Lumenaria [Gazzetta Ufficiale]"
+   ]
+  },
+  {
+   "id": 350,
+   "type": "message",
+   "date": "2021-07-10T19:52:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Cosa ci dicono le elezioni? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Cosa-ci-dicono-le-elezioni-04-27"
+    },
+    " Vincenzo Iemma, 27 Aprile 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 351,
+   "type": "message",
+   "date": "2021-07-10T19:53:48",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Salvatore Giordano ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-al-candidato-PdC-Giordano-Salvatore-05-01"
+    },
+    " Giulio Valerio Orlando, 2 Maggio 2021 - RAL [Il Microfono]"
+   ]
+  },
+  {
+   "id": 352,
+   "type": "message",
+   "date": "2021-07-10T19:55:14",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sotto le luci del firmamento ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sotto-le-luci-del-firmamento-06-12"
+    },
+    " Giuseppe Verdi, 13 Giugno 2021 - Lumenaria [Piazza IV Febbraio]"
+   ]
+  },
+  {
+   "id": 353,
+   "type": "message",
+   "date": "2021-07-10T19:56:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Manifesto dell’Alleanza Nazionale Lumenarense ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Manifesto-dellALLEANZA-NAZIONALE-LUMENARENSE-06-10"
+    },
+    " Alleanza Nazionale Lumenarense, 10 Giugno 2021 - Lumenaria [ANL]"
+   ]
+  },
+  {
+   "id": 354,
+   "type": "message",
+   "date": "2021-07-10T19:57:49",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Francesco Scognamiglio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/A-tu-per-tu-con--Francesco-Scognamiglio-07-04"
+    },
+    " Omar Lanfredi, 4 Luglio 2021 - Lumenaria [Il Quinto Mondo]"
+   ]
+  },
+  {
+   "id": 355,
+   "type": "message",
+   "date": "2021-07-10T21:33:41",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Contatto ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Contatto-07-05"
+    },
+    " Filippo Zanardi, 5 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 356,
+   "type": "message",
+   "date": "2021-07-10T21:34:22",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L’attività ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lattività-07-05"
+    },
+    " Filippo Zanardi, 5 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 357,
+   "type": "message",
+   "date": "2021-07-10T21:35:11",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Perché possiamo parlare di Lumenarismo? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Perché-possiamo-parlare-di-Lumenarismo-07-05"
+    },
+    " Filippo Zanardi, 5 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 358,
+   "type": "message",
+   "date": "2021-07-10T21:36:17",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lo spettro del frontismo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lo-spettro-del-frontismo-07-05"
+    },
+    " Filippo Zanardi, 5 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 359,
+   "type": "message",
+   "date": "2021-07-10T21:37:48",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Come si riconosce una micronazione leonense? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Come-si-riconosce-una-micronazione-leonense-07-05"
+    },
+    " Filippo Zanardi, 5 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 360,
+   "type": "message",
+   "date": "2021-07-10T21:38:55",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Come muore una micronazione? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Come-muore-una-micronazione-07-05"
+    },
+    " Filippo Zanardi, 5 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 361,
+   "type": "message",
+   "date": "2021-07-10T21:39:49",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Espansione demografica ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Espansione-demografica-07-05"
+    },
+    " Filippo Zanardi, 5 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 362,
+   "type": "message",
+   "date": "2021-07-10T21:42:06",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L’eredità culturale ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Leredità-culturale-07-05"
+    },
+    " Filippo Zanardi, 5 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 363,
+   "type": "message",
+   "date": "2021-07-10T21:44:20",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "L’economia di una micronazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Leconomia-di-una-micronazione-07-08"
+    },
+    " Filippo Zanardi, 8 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 364,
+   "type": "message",
+   "date": "2021-07-10T21:45:14",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il Consiglio Culturale Leonense ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-Consiglio-Culturale-Leonense-07-09"
+    },
+    " Filippo Zanardi, 9 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 365,
+   "type": "message",
+   "date": "2021-07-11T12:52:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La Repubblica Unita ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-Repubblica-Unita-07-11"
+    },
+    " Filippo Zanardi, 11 luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 366,
+   "type": "message",
+   "date": "2021-07-11T15:46:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Sulla Formazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Sulla-formazione-07-10"
+    },
+    " Filippo Zanardi, 10 Luglio 2021 - Lumenaria [Radio Lumenaria]"
+   ]
+  },
+  {
+   "id": 367,
+   "type": "message",
+   "date": "2021-07-12T14:20:21",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La visione di Micronazione ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-visione-di-Micronazione-07-12"
+    },
+    " Filippo Zanardi, 12 Luglio 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 368,
+   "type": "message",
+   "date": "2021-07-12T16:46:17",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il Nuovo focolare culturale Leonense ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-nuovo-focolare-culturale-leonense-07-12"
+    },
+    " Vincenzo Iemma, 12 Luglio 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 369,
+   "type": "message",
+   "date": "2021-08-02T13:58:23",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il Ciompismo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-Ciompismo-07-06"
+    },
+    " Salvatore Giordano, 20 Luglio 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 370,
+   "type": "message",
+   "date": "2021-08-03T23:44:08",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La Campagna Demografica ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-campagna-demografica-08-03"
+    },
+    " Filippo Zanardi, 3 Agosto 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 371,
+   "type": "message",
+   "date": "2021-08-03T23:45:17",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Elezioni Governative: l’accordo segreto fra Lanfredi e il Movimento Lumenarista ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Elezioni-governative-laccordo-segreto-fra-Lanfredi-e-il-Movimento-Lumenarista-08-03"
+    },
+    " Vincenzo Iemma, 3 Agosto 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 372,
+   "type": "message",
+   "date": "2021-08-05T22:27:05",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Compromessi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Compromessi-08-05"
+    },
+    " Francesco Scognamiglio, 5 agosto 2021 - Lumenaria [Biblioteca Lumenarense]"
+   ]
+  },
+  {
+   "id": 373,
+   "type": "message",
+   "date": "2021-08-05T22:45:46",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Come sopravvive una micronazione? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Come-sopravvive-una-micronazione-08-05"
+    },
+    " Filippo Zanardi, 5 agosto 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 374,
+   "type": "message",
+   "date": "2021-08-06T07:01:08",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lettera ai Lumenarensi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lettera-ai-Lumenarensi-08-06"
+    },
+    " Giulio Valerio Orlando, 6 agosto 2021 - Lumenaria [Biblioteca Lumenarense]"
+   ]
+  },
+  {
+   "id": 375,
+   "type": "message",
+   "date": "2021-08-07T02:04:24",
+   "edited": "2021-08-07T02:06:09",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Furto in piena regola, il Ministro Orlando ladro e truffatore? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/FURTO-IN-PIENA-REGOLA-IL-MINISTRO-VALERIO-ORLANDO-LADRO-E-TRUFFATORE-08-06"
+    },
+    " Salvatore Giordano, 6 Agosto 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 376,
+   "type": "message",
+   "date": "2021-08-07T02:05:58",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il peso delle forze politiche a Lumenaria ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-peso-delle-forze-politiche-a-Lumenaria-08-06"
+    },
+    " Francesco Sozzi, 6 Agosto 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 377,
+   "type": "message",
+   "date": "2021-08-07T02:07:20",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Mezz'ora con Verdi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Mezzora-con-Verdi-08-03"
+    },
+    " Giuseppe Verdi, 5 Agosto 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 378,
+   "type": "message",
+   "date": "2021-08-07T18:11:38",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Una penna in prestito: Il problema della Marmellata ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-problema-della-marmellata-08-07"
+    },
+    " Riccardo Furlan, 7 Agosto 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 379,
+   "type": "message",
+   "date": "2021-08-09T00:37:46",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Aria di cambiamento ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Aria-di-cambiamento-08-08"
+    },
+    " Filippo Zanardi, 8 Agosto 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 380,
+   "type": "message",
+   "date": "2021-08-09T00:39:14",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Mezz'ora con Verdi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Mezzora-con-Verdi-08-07"
+    },
+    " Giuseppe Verdi, 8 Agosto 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 381,
+   "type": "message",
+   "date": "2021-08-10T15:39:58",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Alba e Tramonto ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Alba-e-Tramonto-08-09"
+    },
+    " Francesco Sozzi, 9 Agosto 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 382,
+   "type": "message",
+   "date": "2021-08-10T15:42:02",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Iberia - Il progetto iniziale accantonato, la nascita effettiva e la crisi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-storia-di-Iberia---Il-progetto-iniziale-accantonato-la-nascita-effettiva-e-la-crisi-08-09"
+    },
+    " Edoardo Olivieri, 10 Agosto 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 383,
+   "type": "message",
+   "date": "2021-08-10T15:43:25",
+   "edited": "2021-08-13T17:06:47",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Una penna in prestito: Salvare una vita umana? Non bisogna essere dei super - eroi. ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Salvare-una-vita-umana-Non-bisogna-essere-super-eroi-08-09"
+    },
+    " Giuseppe Zeffirelli, 9 Agosto 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 384,
+   "type": "message",
+   "date": "2021-08-13T17:03:03",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Mezz'ora con Verdi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Mezzora-con-Verdi-08-10"
+    },
+    " Giuseppe Verdi, 10 Agosto 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 385,
+   "type": "message",
+   "date": "2021-08-13T17:05:12",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Governo Lanfredi: La prima settimana di incarico ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Governo-Lanfredi-la-prima-settimana-di-incarico-08-12-2"
+    },
+    " Francesco Sozzi, 12 Agosto 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 386,
+   "type": "message",
+   "date": "2021-08-13T17:20:53",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Salvatore Giordano ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Salvatore-Giordano-03-02"
+    },
+    " di Francesco Sozzi, 2 Marzo 2021 - RAL [The Daily]"
+   ]
+  },
+  {
+   "id": 387,
+   "type": "message",
+   "date": "2021-08-20T23:37:39",
+   "edited": "2021-08-20T23:37:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "I traguardi del governo Scognamiglio ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/I-traguardi-del-governo-Scognamiglio-08-15"
+    },
+    " di Filippo Zanardi, 15 Agosto 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 388,
+   "type": "message",
+   "date": "2021-08-20T23:39:19",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Se la politica c'è, batta un colpo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Se-la-politica-c%C3%A8-batta-un-colpo-08-16"
+    },
+    " di Francesco Sozzi, 16 Agosto 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 389,
+   "type": "message",
+   "date": "2021-08-20T23:58:43",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Mezz'ora con Verdi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Mezzora-con-Verdi-08-16"
+    },
+    " di Giuseppe Verdi, 16 Agosto 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 390,
+   "type": "message",
+   "date": "2021-08-28T16:05:59",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lumenaria: meno 4 giorni alle elezioni ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lumenaria-meno-4-giorni-alle-elezioni-08-21"
+    },
+    " di Francesco Sozzi, 21 Agosto 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 391,
+   "type": "message",
+   "date": "2021-08-28T16:07:50",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lumenaria: dopo le elezioni ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Lumenaria-dopo-le-elezioni-08-27"
+    },
+    " di Francesco Sozzi, 27 Agosto 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 392,
+   "type": "message",
+   "date": "2021-08-28T16:12:00",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Lumenaria ha bisogno di una legge sul limite di mandati? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "http://telegra.ph/lumenaria-ha-bisogno-di-una-legge-sul-limite-di-mandati-08-24"
+    },
+    " di Vincenzo Iemma, 24 Agosto 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 393,
+   "type": "message",
+   "date": "2021-09-20T21:19:38",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Conosciamoci! con Pasquale Timo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Conosciamoci-con-Pasquale-Timo-08-29"
+    },
+    " di Simone Acquasanta, 1 Settembre 2021 - Lumenaria [Il Microfono]"
+   ]
+  },
+  {
+   "id": 394,
+   "type": "message",
+   "date": "2021-09-20T21:20:41",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Conosciamoci! con Vincenzo Iemma ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Conosciamoci-con-Vincenzo-Iemma-08-29"
+    },
+    " di Simone Acquasanta, 2 Settembre 2021 - Lumenaria [Il Microfono]"
+   ]
+  },
+  {
+   "id": 395,
+   "type": "message",
+   "date": "2021-09-20T21:21:45",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Conosciamoci! con Vittorio Canovi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Conosciamoci-con-Vittorio-Canovi-08-29"
+    },
+    " di Simone Acquasanta, 3 Settembre 2021 - Lumenaria [Il Microfono]"
+   ]
+  },
+  {
+   "id": 396,
+   "type": "message",
+   "date": "2021-09-20T21:22:36",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Conosciamoci! con Mattia Mannocchi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Conosciamoci-con-Mattia-Mannocchi-09-04"
+    },
+    " di Simone Acquasanta, 4 Settembre 2021 - Lumenaria [Il Microfono]"
+   ]
+  },
+  {
+   "id": 397,
+   "type": "message",
+   "date": "2021-09-20T21:23:48",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Mezz’ora con Verdi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Mezzora-con-Verdi-09-05"
+    },
+    " di Giuseppe Verdi, 6 Settembre 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 398,
+   "type": "message",
+   "date": "2021-09-20T21:25:10",
+   "edited": "2021-09-20T21:25:18",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Cosa succede ad Iberia? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Cosa-succede-ad-Iberia-09-06"
+    },
+    " di Francesco Scognamiglio, 6 Settembre 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 399,
+   "type": "message",
+   "date": "2021-09-20T21:26:39",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Riforma costituzionale in arrivo, cosa cambia? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Riforma-costituzionale-in-arrivo-cosa-cambia-09-13"
+    },
+    " di Francesco Scognamiglio, 13 Settembre 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 400,
+   "type": "message",
+   "date": "2021-11-03T18:36:11",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Elezioni a Lumenaria: risultati ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Elezioni-a-Lumenaria-risultati-11-03"
+    },
+    " di Francesco Sozzi, 3 Novembre 2021 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 401,
+   "type": "message",
+   "date": "2021-11-03T18:37:40",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La fine? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-fine-10-24"
+    },
+    " di Francesco Scognamiglio, 24 Ottobre 2021 - Lumenaria [Biblioteca Lumenarense]"
+   ]
+  },
+  {
+   "id": 402,
+   "type": "message",
+   "date": "2021-11-03T18:38:19",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Un nuovo capitolo ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Un-nuovo-capitolo-11-02"
+    },
+    " di Filippo Zanardi, 2 Novembre 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 404,
+   "type": "message",
+   "date": "2022-01-27T18:53:40",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista al Presidente del Consiglio Tobia Testa ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-al-Presidente-del-Consiglio-Tobia-Testa-01-21"
+    },
+    " di Vincenzo Iemma, 21 Gennaio 2022 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 405,
+   "type": "message",
+   "date": "2022-01-27T18:55:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista ad Omar Lanfredi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Intervista-a-Omar-Lanfredi-01-23"
+    },
+    " di Vincenzo Iemma, 23 Gennaio 2022 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 406,
+   "type": "message",
+   "date": "2022-01-27T18:56:43",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Conti in tasca ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Conti-in-tasca-01-05"
+    },
+    " di Simone Acquasanta, 5 Gennaio 2022 - Lumenaria [Il Microfono]"
+   ]
+  },
+  {
+   "id": 407,
+   "type": "message",
+   "date": "2022-01-27T19:01:16",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Le ideologie Leonensi - Parte Seconda ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Le-Ideologie-Leonensi---Parte-Seconda-12-23"
+    },
+    " di Filippo Zanardi, 23 Dicembre 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 408,
+   "type": "message",
+   "date": "2022-01-27T19:02:39",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Una strategia per il futuro ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Una-strategia-per-il-futuro-01-05"
+    },
+    " di Filippo Zanardi, 5 Gennaio 2022 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 409,
+   "type": "message",
+   "date": "2022-01-27T19:07:13",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La politica e l'attività, un legame difficile da rompere ",
+    {
+     "type": "text_link",
+     "text": "⏺ ",
+     "href": "https://telegra.ph/La-politica-e-lattività-un-legame-difficile-da-rompere-08-16"
+    },
+    "di Filippo Zanardi, 16 Agosto 2021 - Lumenaria [Centro Studi Lumenarensi]"
+   ]
+  },
+  {
+   "id": 410,
+   "type": "message",
+   "date": "2022-01-27T19:08:58",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Mezz'ora con Verdi ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Mezzora-con-Verdi-10-12"
+    },
+    " di Giuseppe Verdi, 13 Ottobre 2021 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 411,
+   "type": "message",
+   "date": "2022-01-28T17:01:40",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Intervista a Tobia Testa",
+    {
+     "type": "text_link",
+     "text": " ⏺",
+     "href": "https://telegra.ph/Intervista-a-Tobia-Testa-01-27"
+    },
+    " di Salvatore Giordano, 27 Gennaio 2022 - Lumenaria [La Rinascita]"
+   ]
+  },
+  {
+   "id": 412,
+   "type": "message",
+   "date": "2022-02-16T19:49:54",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Il colle Lumenarense ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Il-colle-lumenarense-02-02"
+    },
+    " di Filippo Zanardi, 2 Febbraio 2022 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 413,
+   "type": "message",
+   "date": "2022-02-16T19:51:32",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Furlan: quota 160 ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Quota-160---Unanalisi-sul-mandato-presidenziale-di-Riccardo-Furlan-02-03"
+    },
+    " di Vincenzo Iemma, 3 Febbraio 2022 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 414,
+   "type": "message",
+   "date": "2022-02-16T19:53:00",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "I giochi di potere ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/I-giochi-di-potere-02-09"
+    },
+    " di Francesco Scognamiglio, 9 Febbraio 2022 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 415,
+   "type": "message",
+   "date": "2022-02-16T19:54:26",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "Davvero si rispettano i programmi elettorali? ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/Davvero-si-rispettano-i-programmi-elettorali-02-11"
+    },
+    " di Vincenzo Iemma, 11 Febbraio 2022 - Lumenaria [Lumenaria Post]"
+   ]
+  },
+  {
+   "id": 416,
+   "type": "message",
+   "date": "2022-02-16T19:55:17",
+   "from": "Centro Culturale Leonense [Lumenaria]",
+   "from_id": "channel1444391747",
+   "text": [
+    "La decadenza della politica ",
+    {
+     "type": "text_link",
+     "text": "⏺",
+     "href": "https://telegra.ph/La-decadenza-della-politica-02-15"
+    },
+    " di Filippo Zanardi, 16 Febbraio 2022 - Lumenaria [Lumenaria Post]"
+   ]
+  }
+ ]
+}
