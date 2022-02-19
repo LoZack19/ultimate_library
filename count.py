@@ -38,6 +38,7 @@ def print_sorted_authors(authors: dict):
         print("%30s:%20s" % author)
 
 
+# Create dictionary of works per date
 def count_frequency(works: list) -> dict:
     frequency = {}
 
@@ -52,6 +53,7 @@ def count_frequency(works: list) -> dict:
     return frequency
 
 
+# Print works per date
 def print_frequency(freq: dict, chron=True):
     if chron:
         # Chronological order (from older to newer)
