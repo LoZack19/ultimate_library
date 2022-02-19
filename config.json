@@ -4,5 +4,6 @@
     "nation_pseudonyms": "data/nation_pseudonyms.txt",
     "months": "data/months.txt",
     "patches": "data/patches.txt",
-    "fixed_links": "data/fix.json"
+    "fixed_links": "data/fix.json",
+    "help_screen": "data/help.json"
 }

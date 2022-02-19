@@ -1,0 +1,42 @@
+{
+    "general": [
+        "--- OPTIONS ---",
+        "(s)ave the works",
+        "(p)rint the works",
+        "(c)ount of the works",
+        "(a)uthor statistics",
+        "(n)ation statistics",
+        "(d)ate statistics",
+        "(l)ink hosts statistics",
+        "",
+        "Everywhere:",
+        "(h)elp screen",
+        "(q)uit [everywhere]",
+        "(b)ack to general screen [everywhere]"
+    ],
+    "author": [
+        "--- AUTHOR ---",
+        "(g)eneral statistics",
+        "(l)ist all authors",
+        "",
+        "About a specific author:",
+        "(t)itles",
+        "(c)ountries of activity",
+        "(n)umber of works"
+    ],
+    "country": [
+        "(g)eneric statistics",
+        "",
+        "About a specific country:",
+        "(n)umber of works",
+        "(a)uthors",
+        "(t)itles"
+    ],
+    "date": [
+        "(c)hronological listing",
+        "(p)lot",
+        "works in a (d)ay",
+        "works in a (m)onth",
+        "works in a (y)ear"
+    ]
+}

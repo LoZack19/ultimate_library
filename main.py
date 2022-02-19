@@ -1,69 +1,36 @@
 from parse import *
 import count
 import config
+import json
+import date
 
 
 def show_options(screen="general"):
-    options = ""
+    with open(config.help_screen) as infile:
+        help_screen = json.load(infile)
 
-    if screen == "general":
-        options = (
-            "--- OPTIONS ---",
-            "(s)ave the works",
-            "(p)rint",
-            "(c)ount",
-            "(a)uthor statistics",
-            "(n)ation statistics",
-            "(d)ate statistics",
-            "(l)ink hosts",
-            "(h)elp screen",
-            "(q)uit [everywhere]",
-            "(b)ack [everywhere]"
-        )
-    elif screen == "author":
-        options = (
-            "--- AUTHOR ---",
-            "(g)eneral statistics",
-            "",
-            "about a specific author:",
-            "(t)itle of works",
-            "(c)ountries of activity",
-            "(n)umber of works",
-            "(l)ist all authors"
-        )
-    elif screen == "country":
-        options = (
-            "(g)eneric statistics",
-            "",
-            "about a specific country:",
-            "(n)umber of works for a country",
-            "(a)uthors in a country",
-            "(t)itles in that country"
-        )
-    
+    options = help_screen[screen]
     print('\n'.join(options))
 
 
 def main():
-    if config.pool == "":
-        pool = input("pool: ")
-    else:
-        pool = config.pool
+    # If no file is specified read from stdin
+    pool = input("pool: ") if config.pool == "" else config.pool
     
     works = init_works(pool)
 
     show_options()
     done = False
-    repeat = False
+    keep_screen = False     # Don't go back to general screen
     option = ""
     while not done:
-        if not repeat:
+        if not keep_screen:
             option = input("> ")
         if option == 'q':
             done = True
         
         if not done:
-            repeat = general_screen(option, works)
+            keep_screen = general_screen(option, works)
 
 
 def clean_option(option: str) -> str:
@@ -265,7 +232,15 @@ def list_authors(works: list, nation: str):
 ### DATE SCREEN ###
 
 
-def date_screen(works: list): pass
+def date_screen(works: list):
+    option = clean_option(input("> "))
+    freq = count.count_frequency(works)
+    res = False
+
+    if option == 'c':
+        count.print_frequency(freq, True)
+    elif option == 'p':
+        pass
 
 
 ### HOSTS SCREEN ###
