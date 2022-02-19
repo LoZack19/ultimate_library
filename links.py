@@ -1,4 +1,6 @@
 import re
+import json
+import config
 
 
 def parse_link(link: str) -> dict:
@@ -20,3 +22,16 @@ def parse_link(link: str) -> dict:
     }
 
     return parsed_link
+
+
+def fix_broken_links(works: list):
+    filename = config.fixed_links
+
+    with open(filename, 'r', encoding='utf-8') as infile:
+        fixed_ls = json.load(infile)
+
+    for broken in works:
+        for fixed in fixed_ls:
+            if broken["title"] == fixed["title"]:
+                broken["link"] = fixed["link"]
+            

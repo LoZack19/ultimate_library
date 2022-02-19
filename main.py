@@ -1,5 +1,6 @@
 from parse import *
 import count
+import config
 
 
 def show_options(screen="general"):
@@ -44,7 +45,11 @@ def show_options(screen="general"):
 
 
 def main():
-    pool = input("pool: ")
+    if config.pool == "":
+        pool = input("pool: ")
+    else:
+        pool = config.pool
+    
     works = init_works(pool)
 
     show_options()
@@ -94,7 +99,7 @@ def general_screen(option: str, works: list) -> bool:
 
 
 def print_works(works: list):
-    months = init_months("months.txt")
+    months = init_months(config.months)
     for work in works:
         print("%s, %s, %s - %s [%s]" % (work["title"], work["author"],
                                         "%d %s %d" % (work["date"][2], months[work["date"][1] - 1], work["date"][0]),

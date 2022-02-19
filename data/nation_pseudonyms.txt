@@ -1,0 +1,10 @@
+RFL:Federazione;Repubblica Federale Leonense
+Lumenaria:Repubblica di Lumenaria
+Castaboro:Repubblica di Castaboro;Castaboro I;Castaboro II
+Silonia:Regno di Silonia
+Aragonia:Regno di Aragonia
+Leonia:Repubblica di Leonia
+RAL:Repubblica Aragonista Leonense
+Agepoli:Repubblica di Agepoli
+Ghelda:Regno Fortezza di Ghelda
+Romenzia:Repubblica di Romenzia

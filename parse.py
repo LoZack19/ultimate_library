@@ -8,6 +8,8 @@
 
 import json
 import re
+import links
+import config
 
 
 # Reads the message pool and returns a list of messages (only text information is kept)
@@ -56,9 +58,9 @@ def remove_pretty_formatting(text: list) -> None:
 # Parses the messages into a list of dictionaries containing major information about each work
 def parse_works(messages: list, verbose=False) -> list:
     works = []
-    patches = init_patches("patches.txt")   # Speeds up the code by loading the patches only once
-    author_pseudonyms = init_pseudonyms("author_pseudonyms.txt")
-    nation_pseudonyms = init_pseudonyms("nation_pseudonyms.txt")
+    patches = init_patches(config.patches)   # Speeds up the code by loading the patches only once
+    author_pseudonyms = init_pseudonyms(config.author_pseudonyms)
+    nation_pseudonyms = init_pseudonyms(config.nation_pseudonyms)
 
     for (id, message) in enumerate(messages):
         id += 1
@@ -108,6 +110,7 @@ def parse_works(messages: list, verbose=False) -> list:
 def init_works(filename: str, verbose=False) -> list:
     messages = init_messages(filename)
     works = parse_works(messages, verbose)
+    links.fix_broken_links(works)
     return works
 
 
@@ -199,7 +202,7 @@ def patch_text(text: str, patches=None) -> str:
     patch = text
 
     if patches == None:
-        patches = init_patches("patches.txt")
+        patches = init_patches(config.patches)
 
     if text in patches:
         patch = patches[text]
@@ -211,7 +214,7 @@ def patch_text(text: str, patches=None) -> str:
 def init_months(filename: str) -> list:
     lookup = []
 
-    with open("months.txt", 'r') as infile:
+    with open(filename, 'r') as infile:
         for line in infile:
             lookup.append(line.strip())
     
@@ -220,7 +223,7 @@ def init_months(filename: str) -> list:
 
 # Returns a tuple containing year, month and day
 def format_date(date: str) -> tuple:
-    lookup = init_months("months.txt")
+    lookup = init_months(config.months)
 
     if date == "None":
         return (0, 0, 0)
