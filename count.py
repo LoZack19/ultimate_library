@@ -44,11 +44,12 @@ def count_frequency(works: list) -> dict:
 
     for work in works:
         (day, month, year) = work["date"]
-        date = datetime.datetime(day, month, year)
-        if date in frequency:
-            frequency[date] += 1
-        else:
-            frequency[date] = 1
+        if (day, month, year) != (0, 0, 0):
+            date = datetime.datetime(day, month, year)
+            if date in frequency:
+                frequency[date] += 1
+            else:
+                frequency[date] = 1
     
     return frequency
 

@@ -1,5 +1,6 @@
 import datetime as dt
 from datetime import datetime
+from count import count_frequency
 import matplotlib.pyplot as plt
 
 # Returns a list of ordered tuples (year, month, day) from day $start to day $end
@@ -20,9 +21,27 @@ def time_range_str(trange: list):
     return ["%d/%d/%d" % i[::-1] for i in trange]
 
 
+def get_oldest(works: list) -> tuple:
+    freq = count_frequency(works)
+    oldest = min(freq)
+    return (oldest.year, oldest.month, oldest.day)
+
+
+def get_newer(works: list) -> tuple:
+    freq = count_frequency(works)
+    oldest = max(freq)
+    return (oldest.year, oldest.month, oldest.day)
+
+
 # Right button to control scaling
 # Left button to move the graph
-def plot_works(works: list, start: tuple, end: tuple, labels_freq=10):
+# $start and $end are (year, month, day) tuples
+def plot_works(works: list, start=None, end=None, labels_freq=365):
+    if start == None:
+        start = get_oldest(works)
+    if end == None:
+        end = get_newer(works)
+
     trange = time_range(start, end)
     xticks = time_range_str(trange)  # custom x labels
 
@@ -39,6 +58,7 @@ def plot_works(works: list, start: tuple, end: tuple, labels_freq=10):
     plt.xticks(x[::labels_freq], xticks[::labels_freq])
     plt.tight_layout()
     plt.plot(x, y)
+    plt.grid(axis='y')
     plt.show()
 
 
@@ -46,7 +66,8 @@ from parse import *
 import config
 def test():
     works = init_works(config.pool)
-    plot_works(works, (2019, 1, 1), (2020, 1, 1))
+    for year in range(2016, 2022):
+        plot_works(works, (year, 1, 1), (year + 1, 1, 1), 30)
 
 
 if __name__ == "__main__":

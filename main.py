@@ -80,40 +80,39 @@ def print_works(works: list):
 def author_screen(works: list) -> bool:
     option = clean_option(input("> "))
     authors = count.count_authors(works)
+    specific = list("tnc")
     res = True
 
     if option == 'h':
         show_options("author")
-    elif option == 'g':
-        count.print_sorted_authors(authors)
-    elif option == 'l':
-        list_authors(authors)
-    elif option == 't':
-        author = get_author()
-        print_works_from(works, author)
-    elif option == 'n':
-        try:
-            author = get_author(authors)
-            print(authors[author])
-        except KeyError as err:
-            print(err)
-    elif option == 'c':
-        try:
-            author = get_author(authors)
-            author_countries(works, author)
-        except KeyError as err:
-            print(err)
     elif option == 'b':
         res = False
     elif option == 'q':
         quit()
+    elif option == 'g':
+        count.print_sorted_authors(authors)
+    elif option == 'l':
+        list_authors(authors)
+    elif option in specific:
+        try:
+            author = get_author(authors)
+
+            if option == 't':
+                print_works_from(works, author)
+            elif option == 'n':
+                print(authors[author])
+            elif option == 'c':
+                author_countries(works, author)
+            
+        except KeyError as err:
+            print(err)
     
     return res
 
 
 def get_author(authors=None) -> str:
     buffer = input("author: ")
-    pseudonyms = init_pseudonyms("author_pseudonyms.txt")
+    pseudonyms = init_pseudonyms(config.author_pseudonyms)
     author = resolve_pseudonyms(buffer, pseudonyms)
 
     if authors != None:
@@ -158,6 +157,7 @@ def nation_screen(works: list):
     option = clean_option(input("> "))
     nations = count.count_nations(works)
     res = True  # remain in the screen
+    specific = list("nalt")     # options for a specific country
 
     if option == 'h':
         show_options("country")
@@ -167,22 +167,19 @@ def nation_screen(works: list):
         quit()
     elif option == 'g':
         count.print_nations(nations)
-    elif option == 'n':
+    if option in specific:
         try:
             nation = get_nation(nations)
-            print(nations[nation])
-        except KeyError as err:
-            print(err)
-    elif option == 'a':
-        try:
-            nation = get_nation(nations)
-            country_authors(works, nation)
-        except KeyError as err:
-            print(err)
-    elif option == 'l':
-        try:
-            nation = get_nation(nations)
-            list_authors(works, nation)
+
+            if option == 'n':
+                print(nations[nation])
+            elif option == 'a':
+                country_authors(works, nation)
+            elif option == 'l':
+                list_authors(works, nation)
+            elif option == 't':
+                pass    #! To be implemented
+        
         except KeyError as err:
             print(err)
     
@@ -191,7 +188,7 @@ def nation_screen(works: list):
 
 def get_nation(nations=None) -> str:
     buffer = input("nation: ")
-    pseudonyms = init_pseudonyms("nation_pseudonyms.txt")
+    pseudonyms = init_pseudonyms(config.nation_pseudonyms)
     nation = resolve_pseudonyms(buffer, pseudonyms)
 
     if nations != None:
@@ -235,12 +232,20 @@ def list_authors(works: list, nation: str):
 def date_screen(works: list):
     option = clean_option(input("> "))
     freq = count.count_frequency(works)
-    res = False
+    res = True
 
-    if option == 'c':
+    if option == 'q':
+        quit()
+    elif option == 'b':
+        res = False
+    elif option == 'h':
+        show_options("date")
+    elif option == 'c':
         count.print_frequency(freq, True)
     elif option == 'p':
-        pass
+        date.plot_works(works)
+    
+    return res
 
 
 ### HOSTS SCREEN ###
