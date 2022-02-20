@@ -10,9 +10,16 @@ h: display help about this screen
 
 # Install (Linux)
 
-To install the program simply write into the terminal:
+To install the program download this repository from github and configure the dependecie by simply write into the terminal (in a folder of you choise):
 ```bash
-./configure.sh
+$ git clone https://github.com/LoZack19/ultimate_library
+$ cd ultimate_library
+$ ./configure.sh
 ```
 
 This script installs all the dependencies your program will need to run. Dependencies are listed in `dependencies.txt` in the `data/` folder
+
+To run the program simply type:
+```
+$ python main.py
+```
