@@ -35,8 +35,6 @@
     "date": [
         "(c)hronological listing",
         "(p)lot",
-        "works in a (d)ay",
-        "works in a (m)onth",
-        "works in a (y)ear"
+        "(d)ate search"
     ]
 }

@@ -5,6 +5,7 @@ import json
 import date
 
 
+# Show help for a particular screen
 def show_options(screen="general"):
     with open(config.help_screen) as infile:
         help_screen = json.load(infile)
@@ -39,6 +40,18 @@ def clean_option(option: str) -> str:
     return option[0]
 
 
+### GENERAL SCREEN ###
+
+"""
+    A screen is a function which controls the flow of the program through
+    user input.
+    It returns a keep_screen boolean value to determine wheatehr to go back to the
+    general screen (False) or stay in the current screen (True)
+
+    The general screen is the main screen
+    It can directly perform actions or redirect to other screens
+"""
+
 def general_screen(option: str, works: list) -> bool:
     res = False
     option = clean_option(option)
@@ -65,6 +78,7 @@ def general_screen(option: str, works: list) -> bool:
     return res
 
 
+# Print all works in BSL format
 def print_works(works: list):
     months = init_months(config.months)
     for work in works:
@@ -75,12 +89,18 @@ def print_works(works: list):
 
 ### AUTHOR SCREEN ###
 
+"""
+    A screen can both have options that don't require further
+    user input or options that do require it.
+    The input should be asked once, and not repeatedly in more parts
+    of the code if it's used by more than 1 or at most 2 options, to make the
+    code more readable and the error handling more managable.
+"""
 
-# Returns wheather to repeat the screen or not
 def author_screen(works: list) -> bool:
     option = clean_option(input("> "))
     authors = count.count_authors(works)
-    specific = list("tnc")
+    specific = list("tnc")  # options for a specific author
     res = True
 
     if option == 'h':
@@ -174,11 +194,11 @@ def nation_screen(works: list):
             if option == 'n':
                 print(nations[nation])
             elif option == 'a':
-                country_authors(works, nation)
+                country_authors(works, nation, verbose=True)
             elif option == 'l':
                 list_authors(works, nation)
             elif option == 't':
-                pass    #! To be implemented
+                country_titles(works, nation, verbose=True)
         
         except KeyError as err:
             print(err)
@@ -198,7 +218,7 @@ def get_nation(nations=None) -> str:
     return nation
 
 
-def country_authors(works: list, nation: str, verbose=True):
+def country_authors(works: list, nation: str, verbose=False) -> dict:
     authors = {}
     
     for work in works:
@@ -219,11 +239,32 @@ def country_authors(works: list, nation: str, verbose=True):
     return authors
 
 
-def list_authors(works: list, nation: str):
-    authors = country_authors(works, nation, False)
+def country_titles(works: list, nation: str, verbose=False) -> list:
+    titles = []
 
-    for author in authors:
-        print(author)
+    for work in works:
+        if work["nation"] == nation:
+            titles.append(work["title"])
+    
+    if verbose:
+        for title in titles:
+            print(title)
+    
+    return titles
+
+
+def list_authors(works: list, nation: str, verbose=False) -> list:
+    authors_publications = country_authors(works, nation, False)
+    authors = []
+
+    for author in authors.keys():
+        authors.append(author)
+    
+    if verbose:
+        for author in authors:
+            print(author)
+    
+    return authors
 
 
 ### DATE SCREEN ###
@@ -244,8 +285,43 @@ def date_screen(works: list):
         count.print_frequency(freq, True)
     elif option == 'p':
         date.plot_works(works)
+    elif option == 'd':
+        try:
+            date_ = get_date()
+            matches = date.get_works(works, date=date_)
+            print_works(matches)
+        except (IndexError, ValueError) as err:
+            print(err)
     
     return res
+
+
+def get_date() -> tuple:
+    year = int(input("year [mandatory]: "))
+    month = None
+    day = None
+    
+    print("%s[Press enter to stop]" % (" " * len("year ")))
+    buffer = input("month: ")
+
+    # parse month
+    if buffer.isnumeric():
+        month = int(buffer)
+        if not 1 <= month <= 12:
+            raise ValueError("Invalid month (%d)" % (month))    # ValueError
+    elif buffer.isalpha():
+        months = init_months(config.months)
+        month = months.index(buffer.strip().lower())    # can raise IndexError
+    
+    if month != None:
+        buffer = input("day: ")
+        
+        if buffer != "":
+            day = int(buffer)   # can raise ValueError
+            if not 1 <= day <= 31:
+                raise ValueError("Invalid day (%d)" % (day))
+    
+    return (year, month, day)
 
 
 ### HOSTS SCREEN ###
