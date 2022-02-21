@@ -315,4 +315,6 @@ def save_works(filename: str, works: list):
 def test():
     works = init_works(config.pool)
     save_works("temp.json", works)
-test()
+
+if __name__ == "__main__":
+    test()
