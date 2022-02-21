@@ -5,5 +5,6 @@
     "months": "data/months.txt",
     "patches": "data/patches.txt",
     "fixed_links": "data/fix.json",
-    "help_screen": "data/help.json"
+    "help_screen": "data/help.json",
+    "broken_patterns": "data/broken_patterns.json"
 }
