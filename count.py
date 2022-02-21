@@ -1,12 +1,15 @@
 ##
 # Automates statistics about works. Counts works per author
-# works per date, works per nation and works per publication place
+# works per date, works per nation and works per publication place.
+# Those informations are returned in a form of dictionaries associating
+# To each possible key value a number of occurrencies.
 #
 # Author: Giovanni Zaccaria
 #
 
-import datetime
+import datetime as dt
 import links
+from parse import init_works
 
 
 def count__(works: list, key: str, plussplit=True) -> dict:
@@ -18,7 +21,7 @@ def count__(works: list, key: str, plussplit=True) -> dict:
         if plussplit:
             fields = record.split('+')
         else:
-            fields = [field]
+            fields = [record]
 
         for field in fields:
             if field in count:
@@ -27,6 +30,9 @@ def count__(works: list, key: str, plussplit=True) -> dict:
                 count[field] = 1
     
     return count
+
+
+### AUTHORS ###
 
 
 def count_authors(works: list) -> dict:
@@ -38,18 +44,19 @@ def print_sorted_authors(authors: dict):
         print("%30s:%20s" % author)
 
 
+### DATE ###
+# frequency: works per day
+
 # Create dictionary of works per date
 def count_frequency(works: list) -> dict:
+    dates = count__(works, "date", plussplit=False)
     frequency = {}
 
-    for work in works:
-        (day, month, year) = work["date"]
-        if (day, month, year) != (0, 0, 0):
-            date = datetime.datetime(day, month, year)
-            if date in frequency:
-                frequency[date] += 1
-            else:
-                frequency[date] = 1
+    # Datetime conversion to facilitate sorting
+    for date in dates:
+        (year, month, day) = date
+        if date != (0, 0, 0):
+            frequency[dt.datetime(year, month, day)] = dates[date]
     
     return frequency
 
@@ -66,6 +73,9 @@ def print_frequency(freq: dict, chron=True):
             print( "%10s:%3d" % (date.strftime("%d/%m/%Y"), f))
 
 
+### NATION ###
+
+
 def count_nations(works: list) -> dict:
     return count__(works, "nation")
 
@@ -73,6 +83,9 @@ def count_nations(works: list) -> dict:
 def print_nations(nations: dict):
     for (nation, count) in sorted(nations.items(), key=lambda x: x[1], reverse=True):
         print("%10s:%3d" % (nation, count))
+
+
+### LINK ###
 
 
 def count_hosts(works: list) -> dict:
@@ -95,3 +108,10 @@ def count_hosts(works: list) -> dict:
 def print_hosts(hosts: dict):
     for (host, count) in sorted(hosts.items(), key=lambda x:x[1], reverse=True):
         print("%20s:%4d" % (host, count))
+
+
+### PLACE ###
+
+
+def count_places(works: list):
+    return count__(works, "palce", plussplit=False)
