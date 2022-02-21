@@ -41,9 +41,9 @@ def init_messages(filename: str) -> list:
 
 
 # Initializes directly a list of works from the messages file
-def init_works(filename: str, verbose=False) -> list:
+def init_works(filename: str) -> list:
     messages = init_messages(filename)
-    works = parse_works(messages, verbose)
+    works = parse_works(messages)
     links.fix_broken_links(works)
     return works
 
@@ -64,13 +64,11 @@ def remove_pretty_formatting(text: list) -> None:
 
 
 # Parses the messages into a list of dictionaries containing major information about each work
-def parse_works(messages: list, verbose=False) -> list:
+def parse_works(messages: list) -> list:
     works = []
     patches = init_patches(config.patches)   # Speeds up the code by loading the patches only once
 
-    for (id, message) in enumerate(messages):
-        id += 1
-
+    for message in messages:
         raw_fields = split_text(message, patches)   # split and patch
         work = format_row_work(raw_fields)          # parse
         works.append(work)                          # append

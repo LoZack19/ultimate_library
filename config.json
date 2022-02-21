@@ -1,5 +1,5 @@
 {
-    "pool": "data/result.json",
+    "pool": "data/backup.json",
 
     "title_pseudonyms": "data/pseudonyms/title_pseudonyms.txt",
     "author_pseudonyms": "data/pseudonyms/author_pseudonyms.txt",
