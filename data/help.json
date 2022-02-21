@@ -34,7 +34,13 @@
     ],
     "date": [
         "(c)hronological listing",
+        "(a)ctivity listing",
         "(p)lot",
         "(d)ate search"
+    ],
+    "hosts": [
+        "h(o)sts",
+        "(c)hannels",
+        "b(r)oken links"
     ]
 }

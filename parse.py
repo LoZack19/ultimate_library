@@ -114,6 +114,23 @@ def init_works(filename: str, verbose=False) -> list:
     return works
 
 
+# Select all elements of the list_ which match the pattern
+def select_matching__(list_: list, pattern: dict) -> list:
+    matches = []
+
+    for element in list_:
+        if links.match_pattern(element, pattern):
+            matches.append(element)
+    
+    return matches
+
+
+# Select all the works which match the pattern
+# WARNING: Non pseudonym resolution is performed
+def select_matching_works(works: list, pattern: dict) -> list:
+    return select_matching__(works, pattern)
+
+
 # Transforms the raw author information into a more readable author
 def format_author(raw: str, pseudonyms: dict) -> str:
     author = raw

@@ -1,13 +1,7 @@
-date statistics:
-    most active
-
-link statistics:
-    hosts
-    channels
-    broken links
-
 place statistics
     authors per place
 
 
 refactoring della struttura del progetto
+
+- solve inappropriate location for match function in links module

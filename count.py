@@ -104,10 +104,30 @@ def count_hosts(works: list) -> dict:
     return hosts
 
 
-# Wrapper around similar function
 def print_hosts(hosts: dict):
     for (host, count) in sorted(hosts.items(), key=lambda x:x[1], reverse=True):
         print("%20s:%4d" % (host, count))
+
+
+def count_channels(works: list) -> dict:
+    channels = {}
+
+    for work in works:
+        link = links.parse_link(work["link"])
+        if link != None and link["domain"] == "t.me":
+            channel = link["channel"]
+            
+            if channel in channels:
+                channels[channel] += 1
+            else:
+                channels[channel] = 1
+    
+    return channels
+
+
+# Wrapper around similar function
+def print_channels(channels: dict):
+    print_hosts(channels)
 
 
 ### PLACE ###

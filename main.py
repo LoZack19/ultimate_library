@@ -282,7 +282,9 @@ def date_screen(works: list):
     elif option == 'h':
         show_options("date")
     elif option == 'c':
-        count.print_frequency(freq, True)
+        count.print_frequency(freq)
+    elif option == 'a':
+        count.print_frequency(freq, chron=False)
     elif option == 'p':
         date.plot_works(works)
     elif option == 'd':
@@ -327,7 +329,28 @@ def get_date() -> tuple:
 ### HOSTS SCREEN ###
 
 
-def hosts_screen(works: list): pass
+def hosts_screen(works: list) -> bool:
+    option = clean_option(input("> "))
+    hosts = count.count_hosts(works)
+    channels = count.count_channels(works)
+    res = True
+
+    if option == 'q':
+        quit()
+    elif option == 'b':
+        res = False
+    elif option == 'h':
+        show_options("hosts")
+    elif option == 'o':
+        count.print_hosts(hosts)
+    elif option == 'c':
+        count.print_channels(channels)
+    elif option == 'r':
+        broken = links.get_broken_links(works)
+        print_works(broken)
+        print("TOT: %d" % (len(broken)))
+    
+    return res
 
 
 if __name__ == "__main__":
