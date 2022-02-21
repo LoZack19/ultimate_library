@@ -40,6 +40,14 @@ def init_messages(filename: str) -> list:
     return messages
 
 
+# Initializes directly a list of works from the messages file
+def init_works(filename: str, verbose=False) -> list:
+    messages = init_messages(filename)
+    works = parse_works(messages, verbose)
+    links.fix_broken_links(works)
+    return works
+
+
 # Remove bold, italic and other pretty formatting without removing the link
 def remove_pretty_formatting(text: list) -> None:
     
@@ -59,76 +67,108 @@ def remove_pretty_formatting(text: list) -> None:
 def parse_works(messages: list, verbose=False) -> list:
     works = []
     patches = init_patches(config.patches)   # Speeds up the code by loading the patches only once
-    author_pseudonyms = init_pseudonyms(config.author_pseudonyms)
-    nation_pseudonyms = init_pseudonyms(config.nation_pseudonyms)
 
     for (id, message) in enumerate(messages):
         id += 1
 
-        # Handle format errors
-        try:
-            split_text = parse_text(message[2], patches)
-        except:
-            raise RuntimeError("Bad Format")
-        
-        # Handle broken link
-        link = message[1]["href"]
-        
-        # Handle broken author
-        try:
-            author = format_author(split_text[0], author_pseudonyms)
-        except:
-            raise RuntimeError("Bad author")
-
-        # Handle broken date
-        try:
-            date = format_date(split_text[1])
-        except (IndexError):
-            raise RuntimeError("Broken date")
-        
-        # Handle broken nation
-        try:
-            nation = format_nation(split_text[2], nation_pseudonyms)
-        except:
-            raise RuntimeError("Bad nation")
-
-        work = {
-            "title": patch_text(message[0]).strip(),
-            "link": link,
-            "author": author,
-            "date": date,
-            "nation": nation,
-            "place": split_text[3]
-        }
-
-        works.append(work)
+        raw_fields = split_text(message, patches)   # split and patch
+        work = format_row_work(raw_fields)          # parse
+        works.append(work)                          # append
     
     return works
 
 
-# Initializes directly a list of works from the messages file
-def init_works(filename: str, verbose=False) -> list:
-    messages = init_messages(filename)
-    works = parse_works(messages, verbose)
-    links.fix_broken_links(works)
-    return works
+### PSEUDONYMS ###
 
 
-# Select all elements of the list_ which match the pattern
-def select_matching__(list_: list, pattern: dict) -> list:
-    matches = []
+# Retrieve currently used name and convert an old pseudonym used by this person
+# into its actual name. Useful for spelling correction.
+def resolve_pseudonyms(raw: str, pseudonyms: dict) -> str:
+    chosen_name = raw
 
-    for element in list_:
-        if links.match_pattern(element, pattern):
-            matches.append(element)
+    for name in pseudonyms:
+        if chosen_name in pseudonyms[name]:
+            chosen_name = name
     
-    return matches
+    return chosen_name
 
 
-# Select all the works which match the pattern
-# WARNING: Non pseudonym resolution is performed
-def select_matching_works(works: list, pattern: dict) -> list:
-    return select_matching__(works, pattern)
+# Reads the data structure which links currently used names to a list of old pseudonyms
+def init_pseudonyms(filename: str, has_quotes=False) -> dict:
+    pseudonyms = {}
+
+    if not has_quotes:
+        splits = [':', ';']
+    else:
+        splits = ['":"', '";"']
+
+    with open(filename, 'r') as infile:
+        
+        for line in infile:
+            (name, raw) = line.strip().split(splits[0])
+            pseudonyms_ls = raw.split(splits[1])
+
+            # clean quotes if it has quotes
+            if has_quotes:
+                name = name.strip('"')
+                for i in range(len(pseudonyms_ls)):
+                    pseudonyms_ls[i] = pseudonyms_ls[i].strip('"')
+            
+            pseudonyms[name] = pseudonyms_ls
+    
+    return pseudonyms
+
+
+### FORMATTING ###
+
+
+def format_row_work(raw_work: list) -> dict:
+    work = {}
+    keys = ["title", "link", "author", "date", "nation", "place"]
+
+    for (i, key) in enumerate(keys):
+        work[key] = format_field(raw_work[i], key)
+    
+    return work
+
+
+# Refine raw fields
+def format_field(raw_field: str, key: str) -> str:
+    field = ""
+    have_pseudonyms = ["title", "author", "nation"]     # keys which support pseudonyms
+    have_quotes = ["title"]     # csv formatting with quotes "
+    pseudonyms = None
+
+    if key in have_pseudonyms:
+        pseudonym_file = key + "_pseudonyms"
+        has_quotes = key in have_quotes
+        pseudonyms = init_pseudonyms(config.CONFIG[pseudonym_file], has_quotes)
+
+    if key == "title":
+        field = format_title(raw_field, pseudonyms)
+    elif key == "link":
+        field = format_link(raw_field)
+    elif key == "author":
+        field = format_author(raw_field, pseudonyms)
+    elif key == "date":
+        field = format_date(raw_field)
+    elif key == "nation":
+        field = format_nation(raw_field, pseudonyms)
+    elif key == "place":
+        field = format_place(raw_field)
+    else:
+        raise KeyError("Invalid key")
+    
+    return field
+
+
+def format_title(raw_field: str, pseudonyms: dict):
+    title = resolve_pseudonyms(raw_field.strip(), pseudonyms)
+    return title
+
+
+def format_link(raw_field: str):
+    return raw_field["href"]
 
 
 # Transforms the raw author information into a more readable author
@@ -146,85 +186,6 @@ def format_author(raw: str, pseudonyms: dict) -> str:
     author = '+'.join(authors)
     
     return author
-
-
-def format_nation(raw: str, pseudonyms: dict) -> str:
-    nation = raw
-
-    nations = nation.split('/')
-    for i in range(len(nations)):
-        nations[i] = resolve_pseudonyms(nations[i].strip(), pseudonyms)
-    nation = '+'.join(nations)
-
-    return nation
-
-
-# Retrieve currently used name and convert an old pseudonym used by this person
-# into its actual name. Useful for spelling correction.
-def resolve_pseudonyms(raw: str, pseudonyms: dict) -> str:
-    chosen_name = raw
-
-    for name in pseudonyms:
-        if chosen_name in pseudonyms[name]:
-            chosen_name = name
-    
-    return chosen_name
-
-
-# Reads the data structure which links currently used names to a list of old pseudonyms
-def init_pseudonyms(filename: str) -> dict:
-    pseudonyms = {}
-
-    with open(filename, 'r') as infile:
-        for line in infile:
-            (name, raw) = line.strip().split(':')
-            pseudonyms_ls = raw.split(';')
-            pseudonyms[name] = pseudonyms_ls
-    
-    return pseudonyms
-
-
-# Splits the field of the work message oming after the button
-def parse_text(text: str, patches: dict) -> list:
-    text = patch_text(text, patches)
-
-    split_text = re.split(r",|-|\[", text)
-    parsed = [
-        split_text[0].strip(),  # author
-        split_text[1].strip(),  # raw date
-        split_text[2].strip(),  # nation
-        split_text[3].strip("] \n\t")   # place
-    ]
-
-    return parsed
-
-
-# Initializes the dictionary of patches
-def init_patches(filename: str) -> dict:
-    patches = {}
-
-    with open(filename, 'r') as infile:
-        for line in infile:
-            record = line.strip().split('">"')
-            for i in range(len(record)):
-                record[i] = record[i].strip('"')
-            
-            patches[record[0]] = record[1]
-    
-    return patches
-
-
-# Corrects text from a dictionary of patches
-def patch_text(text: str, patches=None) -> str:
-    patch = text
-
-    if patches == None:
-        patches = init_patches(config.patches)
-
-    if text in patches:
-        patch = patches[text]
-    
-    return patch
 
 
 # Initializes a lookup table for months
@@ -255,8 +216,103 @@ def format_date(date: str) -> tuple:
     return (year, month, day)
 
 
+def format_nation(raw: str, pseudonyms: dict) -> str:
+    nation = raw
+
+    nations = nation.split('/')
+    for i in range(len(nations)):
+        nations[i] = resolve_pseudonyms(nations[i].strip(), pseudonyms)
+    nation = '+'.join(nations)
+
+    return nation
+
+
+def format_place(raw_field: str):
+    place = raw_field.strip()
+    return place
+
+
+### SPLIT AND PATCH ###
+
+
+# Splits the field of the work message coming after the button
+def split_text(message: list, patches: dict) -> list:
+    for i in range(len(message)):
+        if type(message[i]) == str:
+            message[i] = patch_text(message[i], patches)
+
+    split_text = re.split(r",|-|\[", message[2])
+    raw_fields = [
+        message[0],                # title
+        message[1],                # link
+        split_text[0].strip(),  # author
+        split_text[1].strip(),  # date
+        split_text[2].strip(),  # nation
+        split_text[3].strip("] \n\t")   # place
+    ]
+
+    return raw_fields
+
+
+# Initializes the dictionary of patches
+def init_patches(filename: str) -> dict:
+    patches = {}
+
+    with open(filename, 'r') as infile:
+        for line in infile:
+            record = line.strip().split('">"')
+            for i in range(len(record)):
+                record[i] = record[i].strip('"')
+            
+            patches[record[0]] = record[1]
+    
+    return patches
+
+
+# Corrects text from a dictionary of patches
+def patch_text(text: str, patches=None) -> str:
+    patch = text
+
+    if patches == None:
+        patches = init_patches(config.patches)
+
+    if text in patches:
+        patch = patches[text]
+    
+    return patch
+
+
+### SELECT BY PATTERN ###
+
+
+# Select all elements of the list_ which match the pattern
+def select_matching__(list_: list, pattern: dict) -> list:
+    matches = []
+
+    for element in list_:
+        if links.match_pattern(element, pattern):
+            matches.append(element)
+    
+    return matches
+
+
+# Select all the works which match the pattern
+# WARNING: Non pseudonym resolution is performed
+def select_matching_works(works: list, pattern: dict) -> list:
+    return select_matching__(works, pattern)
+
+
+### SAVE ###
+
+
 # Saves the parsed works into a data structure in json
 def save_works(filename: str, works: list):
     
     with open(filename, 'w', encoding="utf-8") as outfile:
         json.dump(works, outfile, indent=4)
+
+
+def test():
+    works = init_works(config.pool)
+    save_works("temp.json", works)
+test()
