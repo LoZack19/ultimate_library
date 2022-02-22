@@ -14,10 +14,10 @@ To install the program download this repository from github and configure the de
 ```bash
 $ git clone https://github.com/LoZack19/ultimate_library
 $ cd ultimate_library
-$ ./configure.sh
+$ pip install -r "date/requirements.txt"
 ```
 
-This script installs all the dependencies your program will need to run. Dependencies are listed in `dependencies.txt` in the `data/` folder
+This script installs all the dependencies your program will need to run. Dependencies are listed in `requirements.txt` in the `data/` folder
 
 To run the program simply type:
 ```

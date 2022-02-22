@@ -1,0 +1,16 @@
+---
+pool: data/backup.json  # file containing the ccl backup
+token: data/token.dat   # file containing the bot token
+
+# pseudonyms files
+title_pseudonyms: data/pseudonyms/title_pseudonyms.txt
+author_pseudonyms: data/pseudonyms/author_pseudonyms.txt
+nation_pseudonyms: data/pseudonyms/nation_pseudonyms.txt
+
+# WARNING: This file are needed for the program to function correctly
+# Touch them only if you understand their functionality
+months: data/months.txt
+patches: data/patches.txt
+fixed_links: data/fix.json
+help_screen: data/help.json
+broken_patterns: data/broken_patterns.json

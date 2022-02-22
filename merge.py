@@ -2,6 +2,7 @@ import json
 import parse
 
 
+# Initializes a works list from a json file
 def init_works(filename: str) -> list:
     with open(filename, 'r', encoding='utf-8') as infile:
         works = json.load(infile)
@@ -12,6 +13,7 @@ def init_works(filename: str) -> list:
     return works
 
 
+# Merge two works lists
 def merge(a: list, b: list) -> list:
     res = list(a)
 
@@ -22,6 +24,8 @@ def merge(a: list, b: list) -> list:
     return res
 
 
+# Checks if the file is a message pool or not
+# If it's not, proabily it's a works list
 def is_message_pool(filename) -> bool:
     res = False
 
@@ -32,6 +36,7 @@ def is_message_pool(filename) -> bool:
     return res 
 
 
+# Merge works from different works lists
 def merge_files(*filenames):
     res = []
 
@@ -49,10 +54,12 @@ def merge_files(*filenames):
 import config
 import main as fn
 import date
+import links
 
 def main():
     works = merge_files(config.pool, "/home/giovanni/Scaricati/Telegram Desktop/diff.json")
     works = date.sort_works_by_date(works)
-    fn.print_works(works)
+    links.fix_file_links(works, backup_path="/home/giovanni/Scaricati/Telegram Desktop/ChatExport_2022-02-22")
+    fn.save_works("works.json", works)
 
 main()
