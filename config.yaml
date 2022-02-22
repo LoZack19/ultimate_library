@@ -1,5 +1,6 @@
 ---
-pool: data/backup.json  # file containing the ccl backup
+pool: "/home/giovanni/Scaricati/Telegram Desktop/works.json"  # file containing the ccl backup
+raw: False              # use true if the pool contains parsed works
 token: data/token.dat   # file containing the bot token
 
 # pseudonyms files

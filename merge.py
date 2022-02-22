@@ -1,5 +1,4 @@
 import json
-import parse
 
 
 # Initializes a works list from a json file
@@ -41,25 +40,7 @@ def merge_files(*filenames):
     res = []
 
     for filename in filenames:
-        if is_message_pool(filename):
-            works = parse.init_works(filename)
-        else:
-            works = init_works(filename)
-        
+        works = init_works(filename)
         res = merge(res, works)
     
     return res
-
-
-import config
-import main as fn
-import date
-import links
-
-def main():
-    works = merge_files(config.pool, "/home/giovanni/Scaricati/Telegram Desktop/diff.json")
-    works = date.sort_works_by_date(works)
-    links.fix_file_links(works, backup_path="/home/giovanni/Scaricati/Telegram Desktop/ChatExport_2022-02-22")
-    fn.save_works("works.json", works)
-
-main()

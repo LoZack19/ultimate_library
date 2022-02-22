@@ -3,6 +3,7 @@ import count
 import config
 import json
 import date
+import merge
 
 
 # Show help for a particular screen
@@ -17,7 +18,6 @@ def show_options(screen="general"):
 def main():
     # If no file is specified read from stdin
     pool = input("pool: ") if config.pool == "" else config.pool
-    
     works = init_works(pool)
 
     show_options()

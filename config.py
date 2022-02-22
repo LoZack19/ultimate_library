@@ -12,16 +12,16 @@ def init_config(filename: str) -> dict:
 CONFIG_FILE = "config.yaml"
 CONFIG = init_config(CONFIG_FILE)
 
-(pool, token, title_pseudonyms, author_pseudonyms, nation_pseudonyms, months, patches, fixed_links, help_screen,
- broken_patterns) = (
-    CONFIG["pool"],
-    CONFIG["token"],
-    CONFIG["title_pseudonyms"],
-    CONFIG["author_pseudonyms"],
-    CONFIG["nation_pseudonyms"],
-    CONFIG["months"],
-    CONFIG["patches"],
-    CONFIG["fixed_links"],
-    CONFIG["help_screen"],
-    CONFIG["broken_patterns"]
-)
+pool = CONFIG["pool"]
+raw = CONFIG["raw"]
+token = CONFIG["token"]
+
+title_pseudonyms = CONFIG["title_pseudonyms"]
+author_pseudonyms = CONFIG["author_pseudonyms"]
+nation_pseudonyms = CONFIG["nation_pseudonyms"]
+
+months = CONFIG["months"]
+patches = CONFIG["patches"]
+fixed_links = CONFIG["fixed_links"]
+help_screen = CONFIG["help_screen"]
+broken_patterns = CONFIG["broken_patterns"]

@@ -10,6 +10,7 @@ import json
 import re
 import links
 import config
+import merge
 
 
 # Reads the message pool and returns a list of messages (only text information is kept)
@@ -41,9 +42,13 @@ def init_messages(filename: str) -> list:
 
 
 # Initializes directly a list of works from the messages file
-def init_works(filename: str) -> list:
-    messages = init_messages(filename)
-    works = parse_works(messages)
+def init_works(filename: str, raw=config.raw) -> list:
+    if raw:
+        messages = init_messages(filename)
+        works = parse_works(messages)
+    else:
+        works = merge.init_works(filename)
+    
     links.fix_broken_links(works)
     return works
 
