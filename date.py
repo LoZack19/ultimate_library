@@ -1,4 +1,5 @@
 import datetime as dt
+import parse
 from datetime import datetime
 from count import count_frequency
 import matplotlib.pyplot as plt
@@ -34,6 +35,11 @@ def get_newest(works: list) -> tuple:
     freq = count_frequency(works)
     oldest = max(freq)
     return (oldest.year, oldest.month, oldest.day)
+
+
+def get_datetime_date(work: dict):
+    (year, month, day) = work["date"] if work["date"] != (0, 0, 0) else (1999, 1, 1)
+    return datetime(year, month, day)
 
 
 # Returns a list of works written in a certain date
@@ -97,10 +103,7 @@ def plot_works(works: list, start=None, end=None, labels_freq=365, pattern=None)
     plt.show()
 
 
-import parse, config
-def test():
-    works = parse.init_works(config.pool)
-    plot_works(works, pattern={"nation": "RFL"})
-
-if __name__ == "__main__":
-    test()
+def sort_works_by_date(works_: list) -> list:
+    works = list(works_)
+    works = sorted(works, key=get_datetime_date)
+    return works

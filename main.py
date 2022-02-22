@@ -82,8 +82,12 @@ def general_screen(option: str, works: list) -> bool:
 def print_works(works: list):
     months = init_months(config.months)
     for work in works:
+        if work["date"] != (0, 0, 0):
+            date = "%d %s %d" % (work["date"][2], months[work["date"][1] - 1], work["date"][0])
+        else:
+            date = str(None)
         print("%s, %s, %s - %s [%s]" % (work["title"], work["author"],
-                                        "%d %s %d" % (work["date"][2], months[work["date"][1] - 1], work["date"][0]),
+                                        date,
                                         work["nation"], work["place"]))
 
 
@@ -313,7 +317,7 @@ def get_date() -> tuple:
             raise ValueError("Invalid month (%d)" % (month))    # ValueError
     elif buffer.isalpha():
         months = init_months(config.months)
-        month = months.index(buffer.strip().lower())    # can raise IndexError
+        month = months.index(buffer.strip().lower()) + 1    # can raise IndexError
     
     if month != None:
         buffer = input("day: ")
