@@ -7,6 +7,7 @@ token: data/token.dat   # file containing the bot token
 title_pseudonyms: data/pseudonyms/title_pseudonyms.txt
 author_pseudonyms: data/pseudonyms/author_pseudonyms.txt
 nation_pseudonyms: data/pseudonyms/nation_pseudonyms.txt
+place_pseudonyms: data/pseudonyms/place_pseudonyms.txt
 
 # WARNING: This file are needed for the program to function correctly
 # Touch them only if you understand their functionality

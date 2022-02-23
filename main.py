@@ -3,7 +3,7 @@ import count
 import config
 import json
 import date
-import merge
+import diff
 
 
 # Show help for a particular screen
@@ -68,6 +68,8 @@ def general_screen(option: str, works: list) -> bool:
         res = date_screen(works)
     elif option == 'l':
         res = hosts_screen(works)
+    elif option == 'u':
+        res = places_screen(works)
     elif option == 'p':
         print_works(works)
     elif option == 'c':
@@ -200,7 +202,8 @@ def nation_screen(works: list):
             elif option == 'a':
                 country_authors(works, nation, verbose=True)
             elif option == 'l':
-                list_authors(works, nation)
+                authors = country_authors(works, nation)
+                list_authors(authors)
             elif option == 't':
                 country_titles(works, nation, verbose=True)
         
@@ -255,20 +258,6 @@ def country_titles(works: list, nation: str, verbose=False) -> list:
             print(title)
     
     return titles
-
-
-def list_authors(works: list, nation: str, verbose=False) -> list:
-    authors_publications = country_authors(works, nation, False)
-    authors = []
-
-    for author in authors.keys():
-        authors.append(author)
-    
-    if verbose:
-        for author in authors:
-            print(author)
-    
-    return authors
 
 
 ### DATE SCREEN ###
@@ -353,6 +342,30 @@ def hosts_screen(works: list) -> bool:
         broken = links.get_broken_links(works)
         print_works(broken)
         print("TOT: %d" % (len(broken)))
+    
+    return res
+
+
+### PLACE SCREEN ###
+
+
+def places_screen(works: list) -> bool:
+    option = clean_option(input("> "))
+    places = count.count_places(works)
+    res = True
+
+    if option == 'q':
+        quit()
+    elif option == 'b':
+        res = False
+    elif option == 'h':
+        show_options("place")
+    elif option == 'g':
+        count.print_places(places)
+    elif option == 'a':
+        places = diff.get_item(works, "place", case_sensitive=True)
+        for place in sorted(places):
+            print(place)
     
     return res
 

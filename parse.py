@@ -48,6 +48,8 @@ def init_works(filename: str, raw=config.raw) -> list:
         works = parse_works(messages)
     else:
         works = merge.init_works(filename)
+        for i in range(len(works)):
+            works[i] = format_parsed_work(works[i])
     
     links.fix_broken_links(works)
     return works
@@ -75,7 +77,7 @@ def parse_works(messages: list) -> list:
 
     for message in messages:
         raw_fields = split_text(message, patches)   # split and patch
-        work = format_row_work(raw_fields)          # parse
+        work = format_raw_work(raw_fields)          # parse
         works.append(work)                          # append
     
     return works
@@ -125,7 +127,18 @@ def init_pseudonyms(filename: str, has_quotes=False) -> dict:
 ### FORMATTING ###
 
 
-def format_row_work(raw_work: list) -> dict:
+def format_parsed_work(work_: dict) -> dict:
+    items = []
+    keys = ["title", "link", "author", "date", "nation", "place"]
+
+    for key in keys:
+        items.append(work_[key])
+    
+    return format_raw_work(items)
+
+
+
+def format_raw_work(raw_work: list) -> dict:
     work = {}
     keys = ["title", "link", "author", "date", "nation", "place"]
 
@@ -138,7 +151,7 @@ def format_row_work(raw_work: list) -> dict:
 # Refine raw fields
 def format_field(raw_field: str, key: str) -> str:
     field = ""
-    have_pseudonyms = ["title", "author", "nation"]     # keys which support pseudonyms
+    have_pseudonyms = ["title", "author", "nation", "place"]     # keys which support pseudonyms
     have_quotes = ["title"]     # csv formatting with quotes "
     pseudonyms = None
 
@@ -158,7 +171,7 @@ def format_field(raw_field: str, key: str) -> str:
     elif key == "nation":
         field = format_nation(raw_field, pseudonyms)
     elif key == "place":
-        field = format_place(raw_field)
+        field = format_place(raw_field, pseudonyms)
     else:
         raise KeyError("Invalid key")
     
@@ -171,7 +184,16 @@ def format_title(raw_field: str, pseudonyms: dict):
 
 
 def format_link(raw_field: str):
-    return raw_field["href"]
+    res = None
+
+    if raw_field == None:
+        res = None
+    elif type(raw_field) == dict:
+        return raw_field["href"]
+    elif type(raw_field) == str:
+        return raw_field
+    else:
+        raise TypeError("Invalid type for a link")
 
 
 # Transforms the raw author information into a more readable author
@@ -206,6 +228,11 @@ def init_months(filename: str) -> list:
 def format_date(date: str) -> tuple:
     lookup = init_months(config.months)
 
+    if type(date) == tuple:
+        return date
+    elif type(date) == list:
+        return tuple(date)
+
     if date == "None":
         return (0, 0, 0)
     
@@ -230,8 +257,9 @@ def format_nation(raw: str, pseudonyms: dict) -> str:
     return nation
 
 
-def format_place(raw_field: str):
+def format_place(raw_field: str, pseudonyms: dict):
     place = raw_field.strip()
+    place = resolve_pseudonyms(place, pseudonyms)
     return place
 
 

@@ -32,6 +32,11 @@ def count__(works: list, key: str, plussplit=True) -> dict:
     return count
 
 
+def print__(dict_: dict, formatter: str):
+    for item in sorted(dict_.items(), key=lambda x: x[1], reverse=True):
+        print(formatter % item)
+
+
 ### AUTHORS ###
 
 
@@ -81,8 +86,7 @@ def count_nations(works: list) -> dict:
 
 
 def print_nations(nations: dict):
-    for (nation, count) in sorted(nations.items(), key=lambda x: x[1], reverse=True):
-        print("%10s:%3d" % (nation, count))
+    print__(nations, "%10s:%3d")
 
 
 ### LINK ###
@@ -105,8 +109,7 @@ def count_hosts(works: list) -> dict:
 
 
 def print_hosts(hosts: dict):
-    for (host, count) in sorted(hosts.items(), key=lambda x:x[1], reverse=True):
-        print("%20s:%4d" % (host, count))
+    print__(hosts, "%20s:%4d")
 
 
 def count_channels(works: list) -> dict:
@@ -125,13 +128,16 @@ def count_channels(works: list) -> dict:
     return channels
 
 
-# Wrapper around similar function
 def print_channels(channels: dict):
-    print_hosts(channels)
+    print__(channels, "%20s:%4d")
 
 
 ### PLACE ###
 
 
 def count_places(works: list):
-    return count__(works, "palce", plussplit=False)
+    return count__(works, "place", plussplit=False)
+
+
+def print_places(places: dict):
+    print__(places, "%31s:%4d")

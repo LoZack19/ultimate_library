@@ -19,6 +19,7 @@ token = CONFIG["token"]
 title_pseudonyms = CONFIG["title_pseudonyms"]
 author_pseudonyms = CONFIG["author_pseudonyms"]
 nation_pseudonyms = CONFIG["nation_pseudonyms"]
+place_pseudonyms = CONFIG["place_pseudonyms"]
 
 months = CONFIG["months"]
 patches = CONFIG["patches"]

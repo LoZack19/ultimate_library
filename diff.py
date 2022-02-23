@@ -1,3 +1,4 @@
+# Itemgetter with case sensitive functionality
 def get_item(works: list, key: str, case_sensitive=False) -> set:
     items = set()
 

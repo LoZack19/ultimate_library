@@ -8,6 +8,7 @@
         "(n)ation statistics",
         "(d)ate statistics",
         "(l)ink hosts statistics",
+        "p(u)blication place statistics",
         "",
         "Everywhere:",
         "(h)elp screen",
@@ -42,5 +43,9 @@
         "h(o)sts",
         "(c)hannels",
         "b(r)oken links"
+    ],
+    "place": [
+        "(g)eneral",
+        "(a)lphabetical listing"
     ]
 }
