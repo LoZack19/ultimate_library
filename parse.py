@@ -343,6 +343,33 @@ def save_works(filename: str, works: list):
         json.dump(works, outfile, indent=4)
 
 
+def bsl_format(work: dict, months=None, no_link=False) -> str:
+    if months == None:
+        months = init_months(config.months)
+
+    if work["date"] != (0, 0, 0):
+        date_ = "%d %s %d" % (work["date"][2], months[work["date"][1] - 1], work["date"][0])
+    else:
+        date_ = str(None)
+    
+
+    if no_link:
+        link = '⏺'
+    else:
+        link = '<a href="%s">⏺</a>' % work["link"]
+
+    bsl = "%s %s %s, %s - %s [%s]" % (
+        work["title"],
+        link,
+        work["author"],
+        date_,
+        work["nation"],
+        work["place"]
+    )
+
+    return bsl
+
+
 def test():
     works = init_works(config.pool)
     save_works("temp.json", works)

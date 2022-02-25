@@ -1,8 +1,6 @@
 import re
 import json
 import config
-import bot
-import time
 
 
 def parse_link(link: str) -> dict:
@@ -81,20 +79,3 @@ def fix_broken_links(works: list):
         for fixed in fixed_ls:
             if broken["title"] == fixed["title"]:
                 broken["link"] = fixed["link"]
-
-
-def fix_file_links(works: list, backup_path="."):
-    for work in works:
-        if work["link"] != None and "://" not in work["link"]:
-            filename = backup_path.rstrip('/') + '/' + work["link"]
-            
-            done = False
-            while not done:
-                try:
-                    link = bot.post_file_in_channel(filename, "ul_archive")
-                    work["link"] = link
-                    done = True
-                except:
-                    timeout = 2
-                    print("Timeout: sleeping for %d seconds" % timeout)
-                    time.sleep(2)

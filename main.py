@@ -80,17 +80,12 @@ def general_screen(option: str, works: list) -> bool:
     return res
 
 
-# Print all works in BSL format
-def print_works(works: list):
+# Print all works in simil-BSL format
+def print_works(works: list, no_link=True):
     months = init_months(config.months)
     for work in works:
-        if work["date"] != (0, 0, 0):
-            date = "%d %s %d" % (work["date"][2], months[work["date"][1] - 1], work["date"][0])
-        else:
-            date = str(None)
-        print("%s, %s, %s - %s [%s]" % (work["title"], work["author"],
-                                        date,
-                                        work["nation"], work["place"]))
+        bsl = bsl_format(work, months, no_link)
+        print(bsl)
 
 
 ### AUTHOR SCREEN ###
@@ -149,7 +144,7 @@ def get_author(authors=None) -> str:
 
 
 def list_authors(authors: dict):
-    for author in authors:
+    for author in sorted(authors):
         print(author)
 
 
@@ -352,6 +347,7 @@ def hosts_screen(works: list) -> bool:
 def places_screen(works: list) -> bool:
     option = clean_option(input("> "))
     places = count.count_places(works)
+    specific = list("ta")
     res = True
 
     if option == 'q':
@@ -362,13 +358,40 @@ def places_screen(works: list) -> bool:
         show_options("place")
     elif option == 'g':
         count.print_places(places)
-    elif option == 'a':
+    elif option == 'l':
         places = diff.get_item(works, "place", case_sensitive=True)
         for place in sorted(places):
             print(place)
+    elif option in specific:
+        try:
+            place = get_place(places)
+
+            if option == 't':
+                titles = diff.get_item(works, "title", case_sensitive=True, pattern={"place": place})
+                for title in sorted(titles):
+                    print(title)
+            elif option == 'a':
+                authors = diff.get_item(works, "author", case_sensitive=True, pattern={"place": place}, plussplit=True)
+                for author in sorted(authors):
+                    print(author)
+        
+        except ValueError as err:
+            print(err)
     
     return res
 
 
+def get_place(places: dict) -> str:
+    buffer = input("place: ").strip()
+    pseudonyms = init_pseudonyms(config.place_pseudonyms)
+    place = resolve_pseudonyms(buffer, pseudonyms)
+
+    if place not in places:
+        raise ValueError("No such place")
+
+    return place
+
+
+import bot
 if __name__ == "__main__":
     main()
