@@ -72,6 +72,8 @@ def general_screen(option: str, works: list) -> bool:
         res = places_screen(works)
     elif option == 'p':
         print_works(works)
+    elif option == '!':
+        bot.post_works_on_channel(works, config.channel)
     elif option == 'c':
         print(len(works))
     elif option == 'h':

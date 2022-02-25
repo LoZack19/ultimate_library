@@ -1,7 +1,8 @@
 ---
-pool: "data/works.json"  # file containing the ccl backup
+pool: data/works.json   # file containing the ccl backup
 raw: False              # use true if the pool contains parsed works
 token: data/token.dat   # file containing the bot token
+channel: CentroCulturaleLeonense
 
 # pseudonyms files
 title_pseudonyms: data/pseudonyms/title_pseudonyms.txt

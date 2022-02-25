@@ -15,6 +15,7 @@ CONFIG = init_config(CONFIG_FILE)
 pool = CONFIG["pool"]
 raw = CONFIG["raw"]
 token = CONFIG["token"]
+channel = CONFIG["channel"]
 
 title_pseudonyms = CONFIG["title_pseudonyms"]
 author_pseudonyms = CONFIG["author_pseudonyms"]

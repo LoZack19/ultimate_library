@@ -1,5 +1,6 @@
 from threading import TIMEOUT_MAX
 import telegram
+from urllib3 import Retry
 import config
 import parse
 import time
@@ -62,9 +63,11 @@ def post_works_on_channel(works: list, channel: str):
                 done = True
             except telegram.error.TimedOut:
                 timeout = 4
-                time.sleep(timeout)
                 print(TIMEOUT_MSG % timeout)
-            except telegram.error.RetryAfter as timeout:
+                time.sleep(timeout)
+            except telegram.error.RetryAfter as err:
+                timeout = int(err.retry_after)
                 print("[WARNING] : Flood detected")
                 print(TIMEOUT_MSG % timeout)
                 time.sleep(timeout)
+                print("Timeout end.")
