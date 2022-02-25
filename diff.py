@@ -1,13 +1,24 @@
 # Itemgetter with case sensitive functionality
-def get_item(works: list, key: str, case_sensitive=False) -> set:
+from parse import select_matching_works
+
+
+# Selects an item from all works matching the pattern
+def get_item(works: list, key: str, case_sensitive=False, pattern=None, plussplit=False) -> set:
     items = set()
 
+    if pattern != None:
+        works = select_matching_works(works, pattern)
+
     for work in works:
-        item = item = work[key]
-        if not case_sensitive:
-            item = item.lower().strip()
+        item_ls = [work[key]]
+        if plussplit:
+            item_ls = work[key].split('+')
         
-        items.add(item)
+        for item in item_ls:
+            if not case_sensitive:
+                item = item.lower().strip()
+            
+            items.add(item)
     
     return items
 

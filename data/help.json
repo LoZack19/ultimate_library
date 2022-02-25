@@ -46,6 +46,10 @@
     ],
     "place": [
         "(g)eneral",
-        "(a)lphabetical listing"
+        "a(l)phabetical listing",
+        "",
+        "About a specific place",
+        "(t)itles",
+        "(a)uthors"
     ]
 }
