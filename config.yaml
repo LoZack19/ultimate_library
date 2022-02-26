@@ -1,7 +1,7 @@
 ---
-pool: data/works.json   # file containing the ccl backup
-raw: False              # use true if the pool contains parsed works
-token: data/token.dat   # file containing the bot token
+pool: data/result.json   # file containing the ccl backup
+raw: True                # use true if the pool contains parsed works
+token: data/token.dat    # file containing the bot token
 channel: CentroCulturaleLeonense
 
 # pseudonyms files
