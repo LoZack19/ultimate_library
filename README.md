@@ -69,7 +69,7 @@ Do not touch the other options if you don't know what you're doing.
 
 ## General screen
 
-The program is organized in screen. Three options are valid in all screens:
+The program is organized in screens. Three options are valid in all screens:
 ```
 b: go back to the general screen
 h: get help about the screen
