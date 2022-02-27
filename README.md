@@ -65,7 +65,18 @@ This is why the token information for my bot was not published on this repo and 
 
 ### other
 
-Don not touch the other options if you don't know what you're doing.
+Do not touch the other options if you don't know what you're doing.
+
+## General screen
+
+The program is organized in screen. Three options are valid in all screens:
+```
+b: go back to the general screen
+h: get help about the screen
+q: quit the program
+```
+
+The help screen should be enough to guide you through the program functionalities. If you don't find it clear enough report it as explained later in this text.
 
 # Bug report
 
