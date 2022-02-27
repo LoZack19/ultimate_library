@@ -1,6 +1,12 @@
-from threading import TIMEOUT_MAX
+##
+# Software interface with the telegram api. This module adds the functionalities
+# needed for the program to interact with telegram by a bot
+#
+# Author: Giovanni Zaccaria (and minor contribution from Carlo Cesare Orlando)
+#
+
+
 import telegram
-from urllib3 import Retry
 import config
 import parse
 import time
@@ -9,9 +15,22 @@ import time
 TIMEOUT_MSG = "Timeout: sleeping for %d seconds"
 
 
+def init_token(filename: str) -> str:
+    token = input("token: ")
+
+    with open(filename, 'w') as outfile:
+        outfile.write(token)
+    
+    return token
+
+
 def get_token(filename: str) -> str:
-    with open(filename, 'r') as infile:
-        token = infile.readline().strip()
+
+    try:
+        with open(filename, 'r') as infile:
+            token = infile.readline().strip()
+    except IOError:
+        token = init_token(filename)
     
     return token
 

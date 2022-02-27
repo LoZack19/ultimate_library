@@ -1,5 +1,11 @@
 # Ultimate Library
 
+## For the noobs
+
+Ultimate Library is a software that helps you obtain useful information from a library backup which uses a BSL format.
+
+## Go deeper
+
 Ultimate Library is a collection of libraries and programs useful for parsing and collecting statistics on message pools in BSL (Biblioteca Statale Loenense) format. The main program allows you to collect useful statistics via a command line interface. The commands to know are:
 ```
 q: quit
@@ -62,7 +68,11 @@ This is the channel where the bot will post the works in bsl format when the com
 
 Token poins to the file containing the token of the bot. The token of the bot is a is a unique code associated with each bot that allows you to command it through the telegram bot api. Never share the token if you don't want others to be able to control the bot however they want.
 
+If the file does not exist, the program will prompt the user to imput the token as soon as it is needed to perform an operation and the file will be generated. You can also manually create the file in the location specified by the config file, or wherever you prefer if you modify the location with the intended one in the config file.
+
 This is why the token information for my bot was not published on this repo and I could not directly put the token inside the config file, but I had to put it inside I file I had to keep private on my computer.
+
+It is very simple to get your own bot: just send the command `/newbot` to `@BotFather` on telegram and follow the breef guided steps to initialize your bot. You can also request a token to another one (either a person or an organization) who is willing to share it. Remember that a token gives full access to a specific bot.
 
 ### other
 
